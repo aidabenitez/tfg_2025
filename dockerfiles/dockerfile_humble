@@ -1,24 +1,32 @@
 FROM ros:humble
 
-RUN rm /etc/apt/sources.list.d/ros2-latest.list && \
-    apt update && apt install curl && \
-    curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg && \
-    echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
-
 RUN apt update && \
     apt install -y software-properties-common && \
     apt install -y ros-humble-demo-nodes-cpp && \
     apt install -y python3-colcon-common-extensions && \
     apt upgrade -y
 
-RUN apt install -y nano
+RUN apt install -y \
+    nano \
+    byobu
 
 RUN apt install -y ros-humble-rqt
 
 RUN apt install -y \
     ros-humble-rviz2 \
     ros-humble-turtlebot4-desktop \
-    ros-humble-turtlebot4-simulator
+    ros-humble-irobot-create-nodes \
+    ros-humble-tf-transformations \
+    ros-dev-tools
+    
+RUN apt-get update && apt-get install -y ros-humble-ros-gz
+    
+RUN apt-get update && apt-get install -y wget lsb-release gnupg2 curl && \
+    curl -sSL http://packages.osrfoundation.org/gazebo.key | apt-key add - && \
+    echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -cs) main" > /etc/apt/sources.list.d/gazebo-stable.list && \
+    apt-get update
+
+RUN apt-get install -y libgz-sim7-dev
 
 RUN apt install -y qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools && \
     apt install -y dbus-x11 x11-xserver-utils
