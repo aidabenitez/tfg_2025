@@ -1,0 +1,83 @@
+[0.049s] Invoking command in '/wolvi/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/navigation -DCMAKE_INSTALL_PREFIX=/wolvi/install/navigation
+[0.252s] -- The C compiler identification is GNU 11.4.0
+[0.398s] -- The CXX compiler identification is GNU 11.4.0
+[0.412s] -- Detecting C compiler ABI info
+[0.540s] -- Detecting C compiler ABI info - done
+[0.556s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.557s] -- Detecting C compile features
+[0.557s] -- Detecting C compile features - done
+[0.561s] -- Detecting CXX compiler ABI info
+[0.710s] -- Detecting CXX compiler ABI info - done
+[0.728s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.728s] -- Detecting CXX compile features
+[0.729s] -- Detecting CXX compile features - done
+[0.736s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.974s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.167s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.261s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.273s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.289s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.311s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.343s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.424s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.430s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.647s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.705s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.784s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.804s] -- Looking for pthread.h
+[1.936s] -- Looking for pthread.h - found
+[1.937s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.078s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.080s] -- Found Threads: TRUE  
+[2.159s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[2.296s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.451s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.453s] -- Added test 'lint_cmake' to check CMake code style
+[2.455s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.458s] -- Added test 'xmllint' to check XML markup files
+[2.461s] -- Configuring done
+[2.471s] -- Generating done
+[2.475s] -- Build files have been written to: /wolvi/build/navigation
+[2.490s] Invoked command in '/wolvi/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/navigation -DCMAKE_INSTALL_PREFIX=/wolvi/install/navigation
+[2.492s] Invoking command in '/wolvi/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/navigation -- -j16 -l16
+[2.618s] Built target ament_cmake_python_copy_navigation
+[2.911s] running egg_info
+[2.911s] creating navigation.egg-info
+[2.912s] writing navigation.egg-info/PKG-INFO
+[2.912s] writing dependency_links to navigation.egg-info/dependency_links.txt
+[2.912s] writing top-level names to navigation.egg-info/top_level.txt
+[2.912s] writing manifest file 'navigation.egg-info/SOURCES.txt'
+[2.915s] reading manifest file 'navigation.egg-info/SOURCES.txt'
+[2.915s] writing manifest file 'navigation.egg-info/SOURCES.txt'
+[2.971s] Built target ament_cmake_python_build_navigation_egg
+[2.987s] Invoked command in '/wolvi/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/navigation -- -j16 -l16
+[2.990s] Invoking command in '/wolvi/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/navigation
+[3.004s] -- Install configuration: ""
+[3.005s] -- Installing: /wolvi/install/navigation/share/navigation/environment/pythonpath.sh
+[3.005s] -- Installing: /wolvi/install/navigation/share/navigation/environment/pythonpath.dsv
+[3.005s] -- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info
+[3.005s] -- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/top_level.txt
+[3.005s] -- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.006s] -- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.006s] -- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/PKG-INFO
+[3.006s] -- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation
+[3.006s] -- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation/__init__.py
+[3.048s] Listing '/wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation'...
+[3.048s] Compiling '/wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation/__init__.py'...
+[3.055s] -- Installing: /wolvi/install/navigation/lib/navigation/simple_navigation_node.py
+[3.056s] -- Installing: /wolvi/install/navigation/share/ament_index/resource_index/package_run_dependencies/navigation
+[3.056s] -- Installing: /wolvi/install/navigation/share/ament_index/resource_index/parent_prefix_path/navigation
+[3.056s] -- Installing: /wolvi/install/navigation/share/navigation/environment/ament_prefix_path.sh
+[3.057s] -- Installing: /wolvi/install/navigation/share/navigation/environment/ament_prefix_path.dsv
+[3.057s] -- Installing: /wolvi/install/navigation/share/navigation/environment/path.sh
+[3.057s] -- Installing: /wolvi/install/navigation/share/navigation/environment/path.dsv
+[3.058s] -- Installing: /wolvi/install/navigation/share/navigation/local_setup.bash
+[3.058s] -- Installing: /wolvi/install/navigation/share/navigation/local_setup.sh
+[3.059s] -- Installing: /wolvi/install/navigation/share/navigation/local_setup.zsh
+[3.059s] -- Installing: /wolvi/install/navigation/share/navigation/local_setup.dsv
+[3.060s] -- Installing: /wolvi/install/navigation/share/navigation/package.dsv
+[3.060s] -- Installing: /wolvi/install/navigation/share/ament_index/resource_index/packages/navigation
+[3.061s] -- Installing: /wolvi/install/navigation/share/navigation/cmake/navigationConfig.cmake
+[3.061s] -- Installing: /wolvi/install/navigation/share/navigation/cmake/navigationConfig-version.cmake
+[3.061s] -- Installing: /wolvi/install/navigation/share/navigation/package.xml
+[3.067s] Invoked command in '/wolvi/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/navigation

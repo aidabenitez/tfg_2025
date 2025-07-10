@@ -1,0 +1,42 @@
+[0.014s] Invoking command in '/wolvi/build/controller': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/wolvi/install/utils:/wolvi/install/controller:/wolvi/install/robot_bringup:/wolvi/install/localization:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/controller -- -j16 -l16
+[0.125s] Built target ament_cmake_python_copy_controller
+[0.336s] running egg_info
+[0.337s] writing controller.egg-info/PKG-INFO
+[0.339s] writing dependency_links to controller.egg-info/dependency_links.txt
+[0.339s] writing top-level names to controller.egg-info/top_level.txt
+[0.340s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[0.341s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[0.379s] Built target ament_cmake_python_build_controller_egg
+[0.397s] Invoked command in '/wolvi/build/controller' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/wolvi/install/utils:/wolvi/install/controller:/wolvi/install/robot_bringup:/wolvi/install/localization:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/controller -- -j16 -l16
+[0.400s] Invoking command in '/wolvi/build/controller': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/wolvi/install/utils:/wolvi/install/controller:/wolvi/install/robot_bringup:/wolvi/install/localization:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/controller
+[0.414s] -- Install configuration: ""
+[0.415s] -- Up-to-date: /wolvi/install/controller/share/controller/environment/pythonpath.sh
+[0.415s] -- Up-to-date: /wolvi/install/controller/share/controller/environment/pythonpath.dsv
+[0.415s] -- Up-to-date: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info
+[0.415s] -- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/top_level.txt
+[0.415s] -- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.415s] -- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.416s] -- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/PKG-INFO
+[0.416s] -- Up-to-date: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller
+[0.416s] -- Up-to-date: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller/__init__.py
+[0.450s] Listing '/wolvi/install/controller/local/lib/python3.10/dist-packages/controller'...
+[0.454s] -- Up-to-date: /wolvi/install/controller/lib/controller/controller_node.py
+[0.455s] -- Installing: /wolvi/install/controller/lib/controller/first_driver.py
+[0.455s] -- Up-to-date: /wolvi/install/controller/lib/controller/differential_drive.py
+[0.455s] -- Up-to-date: /wolvi/install/controller/lib/controller/serial_communication.py
+[0.455s] -- Up-to-date: /wolvi/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+[0.456s] -- Up-to-date: /wolvi/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+[0.456s] -- Up-to-date: /wolvi/install/controller/share/controller/environment/ament_prefix_path.sh
+[0.456s] -- Up-to-date: /wolvi/install/controller/share/controller/environment/ament_prefix_path.dsv
+[0.456s] -- Up-to-date: /wolvi/install/controller/share/controller/environment/path.sh
+[0.456s] -- Up-to-date: /wolvi/install/controller/share/controller/environment/path.dsv
+[0.456s] -- Up-to-date: /wolvi/install/controller/share/controller/local_setup.bash
+[0.457s] -- Up-to-date: /wolvi/install/controller/share/controller/local_setup.sh
+[0.457s] -- Up-to-date: /wolvi/install/controller/share/controller/local_setup.zsh
+[0.457s] -- Up-to-date: /wolvi/install/controller/share/controller/local_setup.dsv
+[0.457s] -- Installing: /wolvi/install/controller/share/controller/package.dsv
+[0.457s] -- Up-to-date: /wolvi/install/controller/share/ament_index/resource_index/packages/controller
+[0.457s] -- Up-to-date: /wolvi/install/controller/share/controller/cmake/controllerConfig.cmake
+[0.457s] -- Up-to-date: /wolvi/install/controller/share/controller/cmake/controllerConfig-version.cmake
+[0.458s] -- Up-to-date: /wolvi/install/controller/share/controller/package.xml
+[0.462s] Invoked command in '/wolvi/build/controller' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/wolvi/install/utils:/wolvi/install/controller:/wolvi/install/robot_bringup:/wolvi/install/localization:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/controller

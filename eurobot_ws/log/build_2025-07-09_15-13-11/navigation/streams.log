@@ -1,0 +1,39 @@
+[0.059s] Invoking command in '/wolvi/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/navigation -- -j16 -l16
+[0.154s] Built target ament_cmake_python_copy_navigation
+[0.400s] running egg_info
+[0.400s] writing navigation.egg-info/PKG-INFO
+[0.401s] writing dependency_links to navigation.egg-info/dependency_links.txt
+[0.401s] writing top-level names to navigation.egg-info/top_level.txt
+[0.403s] reading manifest file 'navigation.egg-info/SOURCES.txt'
+[0.404s] writing manifest file 'navigation.egg-info/SOURCES.txt'
+[0.453s] Built target ament_cmake_python_build_navigation_egg
+[0.472s] Invoked command in '/wolvi/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/navigation -- -j16 -l16
+[0.475s] Invoking command in '/wolvi/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/navigation
+[0.489s] -- Install configuration: ""
+[0.489s] -- Up-to-date: /wolvi/install/navigation/share/navigation/environment/pythonpath.sh
+[0.489s] -- Up-to-date: /wolvi/install/navigation/share/navigation/environment/pythonpath.dsv
+[0.489s] -- Up-to-date: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info
+[0.490s] -- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/top_level.txt
+[0.490s] -- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.490s] -- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.490s] -- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/PKG-INFO
+[0.490s] -- Up-to-date: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation
+[0.490s] -- Up-to-date: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation/__init__.py
+[0.528s] Listing '/wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation'...
+[0.534s] -- Installing: /wolvi/install/navigation/lib/navigation/simple_navigation_node.py
+[0.537s] -- Up-to-date: /wolvi/install/navigation/share/ament_index/resource_index/package_run_dependencies/navigation
+[0.538s] -- Up-to-date: /wolvi/install/navigation/share/ament_index/resource_index/parent_prefix_path/navigation
+[0.538s] -- Up-to-date: /wolvi/install/navigation/share/navigation/environment/ament_prefix_path.sh
+[0.538s] -- Up-to-date: /wolvi/install/navigation/share/navigation/environment/ament_prefix_path.dsv
+[0.538s] -- Up-to-date: /wolvi/install/navigation/share/navigation/environment/path.sh
+[0.538s] -- Up-to-date: /wolvi/install/navigation/share/navigation/environment/path.dsv
+[0.538s] -- Up-to-date: /wolvi/install/navigation/share/navigation/local_setup.bash
+[0.539s] -- Up-to-date: /wolvi/install/navigation/share/navigation/local_setup.sh
+[0.539s] -- Up-to-date: /wolvi/install/navigation/share/navigation/local_setup.zsh
+[0.539s] -- Up-to-date: /wolvi/install/navigation/share/navigation/local_setup.dsv
+[0.539s] -- Installing: /wolvi/install/navigation/share/navigation/package.dsv
+[0.539s] -- Up-to-date: /wolvi/install/navigation/share/ament_index/resource_index/packages/navigation
+[0.539s] -- Up-to-date: /wolvi/install/navigation/share/navigation/cmake/navigationConfig.cmake
+[0.540s] -- Up-to-date: /wolvi/install/navigation/share/navigation/cmake/navigationConfig-version.cmake
+[0.540s] -- Up-to-date: /wolvi/install/navigation/share/navigation/package.xml
+[0.561s] Invoked command in '/wolvi/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/navigation

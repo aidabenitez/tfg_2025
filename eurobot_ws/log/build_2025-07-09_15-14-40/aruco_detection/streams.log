@@ -1,0 +1,3 @@
+[0.068s] Invoking command in '/wolvi/build/aruco_detection': /usr/bin/cmake --build /wolvi/build/aruco_detection -- -j16 -l16
+[0.151s] [100%] Built target t_aruco_detection
+[0.190s] Invoked command in '/wolvi/build/aruco_detection' returned '0': /usr/bin/cmake --build /wolvi/build/aruco_detection -- -j16 -l16

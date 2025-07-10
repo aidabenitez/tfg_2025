@@ -1,0 +1,1 @@
+Invoking command in '/wolvi/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/localization -DCMAKE_INSTALL_PREFIX=/wolvi/install/localization

@@ -1,0 +1,35 @@
+Built target ament_cmake_python_copy_navigation
+running egg_info
+writing navigation.egg-info/PKG-INFO
+writing dependency_links to navigation.egg-info/dependency_links.txt
+writing top-level names to navigation.egg-info/top_level.txt
+reading manifest file 'navigation.egg-info/SOURCES.txt'
+writing manifest file 'navigation.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_navigation_egg
+-- Install configuration: ""
+-- Up-to-date: /wolvi/install/navigation/share/navigation/environment/pythonpath.sh
+-- Up-to-date: /wolvi/install/navigation/share/navigation/environment/pythonpath.dsv
+-- Up-to-date: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info
+-- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation
+-- Up-to-date: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation/__init__.py
+Listing '/wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation'...
+-- Up-to-date: /wolvi/install/navigation/lib/navigation/simple_navigation_node.py
+-- Up-to-date: /wolvi/install/navigation/share/ament_index/resource_index/package_run_dependencies/navigation
+-- Up-to-date: /wolvi/install/navigation/share/ament_index/resource_index/parent_prefix_path/navigation
+-- Up-to-date: /wolvi/install/navigation/share/navigation/environment/ament_prefix_path.sh
+-- Up-to-date: /wolvi/install/navigation/share/navigation/environment/ament_prefix_path.dsv
+-- Up-to-date: /wolvi/install/navigation/share/navigation/environment/path.sh
+-- Up-to-date: /wolvi/install/navigation/share/navigation/environment/path.dsv
+-- Up-to-date: /wolvi/install/navigation/share/navigation/local_setup.bash
+-- Up-to-date: /wolvi/install/navigation/share/navigation/local_setup.sh
+-- Up-to-date: /wolvi/install/navigation/share/navigation/local_setup.zsh
+-- Up-to-date: /wolvi/install/navigation/share/navigation/local_setup.dsv
+-- Installing: /wolvi/install/navigation/share/navigation/package.dsv
+-- Up-to-date: /wolvi/install/navigation/share/ament_index/resource_index/packages/navigation
+-- Up-to-date: /wolvi/install/navigation/share/navigation/cmake/navigationConfig.cmake
+-- Up-to-date: /wolvi/install/navigation/share/navigation/cmake/navigationConfig-version.cmake
+-- Up-to-date: /wolvi/install/navigation/share/navigation/package.xml

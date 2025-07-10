@@ -1,0 +1,3 @@
+/wolvi/src/computing_zone/aruco_detection/build/CMakeFiles/t_aruco_detection.dir
+/wolvi/src/computing_zone/aruco_detection/build/CMakeFiles/edit_cache.dir
+/wolvi/src/computing_zone/aruco_detection/build/CMakeFiles/rebuild_cache.dir

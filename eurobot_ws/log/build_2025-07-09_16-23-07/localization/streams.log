@@ -1,0 +1,38 @@
+[0.044s] Invoking command in '/wolvi/build/localization': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/localization -- -j16 -l16
+[0.142s] Built target ament_cmake_python_copy_localization
+[0.400s] running egg_info
+[0.401s] writing localization.egg-info/PKG-INFO
+[0.401s] writing dependency_links to localization.egg-info/dependency_links.txt
+[0.402s] writing top-level names to localization.egg-info/top_level.txt
+[0.405s] reading manifest file 'localization.egg-info/SOURCES.txt'
+[0.406s] writing manifest file 'localization.egg-info/SOURCES.txt'
+[0.466s] Built target ament_cmake_python_build_localization_egg
+[0.484s] Invoked command in '/wolvi/build/localization' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/localization -- -j16 -l16
+[0.486s] Invoking command in '/wolvi/build/localization': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/localization
+[0.501s] -- Install configuration: ""
+[0.502s] -- Up-to-date: /wolvi/install/localization/share/localization/environment/pythonpath.sh
+[0.502s] -- Up-to-date: /wolvi/install/localization/share/localization/environment/pythonpath.dsv
+[0.502s] -- Up-to-date: /wolvi/install/localization/local/lib/python3.10/dist-packages/localization-0.0.0-py3.10.egg-info
+[0.503s] -- Installing: /wolvi/install/localization/local/lib/python3.10/dist-packages/localization-0.0.0-py3.10.egg-info/top_level.txt
+[0.503s] -- Installing: /wolvi/install/localization/local/lib/python3.10/dist-packages/localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.503s] -- Installing: /wolvi/install/localization/local/lib/python3.10/dist-packages/localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.503s] -- Installing: /wolvi/install/localization/local/lib/python3.10/dist-packages/localization-0.0.0-py3.10.egg-info/PKG-INFO
+[0.503s] -- Up-to-date: /wolvi/install/localization/local/lib/python3.10/dist-packages/localization
+[0.503s] -- Up-to-date: /wolvi/install/localization/local/lib/python3.10/dist-packages/localization/__init__.py
+[0.546s] Listing '/wolvi/install/localization/local/lib/python3.10/dist-packages/localization'...
+[0.552s] -- Up-to-date: /wolvi/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+[0.552s] -- Up-to-date: /wolvi/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+[0.552s] -- Up-to-date: /wolvi/install/localization/share/localization/environment/ament_prefix_path.sh
+[0.553s] -- Up-to-date: /wolvi/install/localization/share/localization/environment/ament_prefix_path.dsv
+[0.553s] -- Up-to-date: /wolvi/install/localization/share/localization/environment/path.sh
+[0.553s] -- Up-to-date: /wolvi/install/localization/share/localization/environment/path.dsv
+[0.553s] -- Up-to-date: /wolvi/install/localization/share/localization/local_setup.bash
+[0.553s] -- Up-to-date: /wolvi/install/localization/share/localization/local_setup.sh
+[0.553s] -- Up-to-date: /wolvi/install/localization/share/localization/local_setup.zsh
+[0.554s] -- Up-to-date: /wolvi/install/localization/share/localization/local_setup.dsv
+[0.554s] -- Installing: /wolvi/install/localization/share/localization/package.dsv
+[0.554s] -- Up-to-date: /wolvi/install/localization/share/ament_index/resource_index/packages/localization
+[0.554s] -- Up-to-date: /wolvi/install/localization/share/localization/cmake/localizationConfig.cmake
+[0.554s] -- Up-to-date: /wolvi/install/localization/share/localization/cmake/localizationConfig-version.cmake
+[0.554s] -- Up-to-date: /wolvi/install/localization/share/localization/package.xml
+[0.560s] Invoked command in '/wolvi/build/localization' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/localization

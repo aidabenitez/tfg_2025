@@ -1,0 +1,4 @@
+Invoking command in '/wolvi/build/aruco_detection': /usr/bin/cmake /wolvi/src/computing_zone/aruco_detection -DCMAKE_INSTALL_PREFIX=/wolvi/install/aruco_detection
+Invoked command in '/wolvi/build/aruco_detection' returned '0': /usr/bin/cmake /wolvi/src/computing_zone/aruco_detection -DCMAKE_INSTALL_PREFIX=/wolvi/install/aruco_detection
+Invoking command in '/wolvi/build/aruco_detection': /usr/bin/cmake --build /wolvi/build/aruco_detection -- -j16 -l16
+Invoked command in '/wolvi/build/aruco_detection' returned '0': /usr/bin/cmake --build /wolvi/build/aruco_detection -- -j16 -l16

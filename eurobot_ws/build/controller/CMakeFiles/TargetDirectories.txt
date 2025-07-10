@@ -1,0 +1,11 @@
+/wolvi/build/controller/CMakeFiles/uninstall.dir
+/wolvi/build/controller/CMakeFiles/controller_uninstall.dir
+/wolvi/build/controller/CMakeFiles/ament_cmake_python_copy_controller.dir
+/wolvi/build/controller/CMakeFiles/ament_cmake_python_build_controller_egg.dir
+/wolvi/build/controller/CMakeFiles/test.dir
+/wolvi/build/controller/CMakeFiles/edit_cache.dir
+/wolvi/build/controller/CMakeFiles/rebuild_cache.dir
+/wolvi/build/controller/CMakeFiles/list_install_components.dir
+/wolvi/build/controller/CMakeFiles/install.dir
+/wolvi/build/controller/CMakeFiles/install/local.dir
+/wolvi/build/controller/CMakeFiles/install/strip.dir
