@@ -2,7 +2,7 @@
 
 import rclpy
 import tf_transformations
-import csv
+import csv, time
 
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
@@ -39,6 +39,10 @@ class ControllerNode(Node):
         self.vel_right_wheel_ = 0.0
 
         self.robot_traj_ = []
+
+        self.csv_file = open('odometria.csv', mode='w', newline='')
+        self.csv_writer = csv.writer(self.csv_file)
+        self.csv_writer.writerow(['timestamp', 'encoder_left', 'encoder_right'])
 
 
         # Publishers
@@ -85,6 +89,13 @@ class ControllerNode(Node):
         
         if self.encoder_left_ > 0:
             self.get_logger().info("Enc l: " + str(self.encoder_left_) + " | Enc r: " + str(self.encoder_right_))
+
+        
+        # Temps actual en segons
+        timestamp = time.time()
+
+        # Escriu la línia al CSV
+        self.csv_writer.writerow([timestamp, self.encoder_left_, self.encoder_right_])
 
     
     def update_odom(self):
@@ -166,6 +177,8 @@ def main(args=None):
             writer.writerow(['x', 'y', 'theta'])
             for point in controller_node.robot_traj_:
                 writer.writerow(point)
+
+        controller_node.csv_file.close()
 
         # Tancar correctament el node i ROS
 

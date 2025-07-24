@@ -1,0 +1,41 @@
+[0.060s] Invoking command in '/wolvi/build/camera_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/camera_sim -- -j16 -l16
+[0.149s] Built target ament_cmake_python_copy_camera_sim
+[0.444s] running egg_info
+[0.445s] writing camera_sim.egg-info/PKG-INFO
+[0.445s] writing dependency_links to camera_sim.egg-info/dependency_links.txt
+[0.445s] writing top-level names to camera_sim.egg-info/top_level.txt
+[0.448s] reading manifest file 'camera_sim.egg-info/SOURCES.txt'
+[0.449s] writing manifest file 'camera_sim.egg-info/SOURCES.txt'
+[0.510s] Built target ament_cmake_python_build_camera_sim_egg
+[0.537s] Invoked command in '/wolvi/build/camera_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/camera_sim -- -j16 -l16
+[0.555s] Invoking command in '/wolvi/build/camera_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/camera_sim
+[0.567s] -- Install configuration: ""
+[0.567s] -- Up-to-date: /wolvi/install/camera_sim/share/camera_sim/environment/pythonpath.sh
+[0.567s] -- Up-to-date: /wolvi/install/camera_sim/share/camera_sim/environment/pythonpath.dsv
+[0.569s] -- Up-to-date: /wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim-0.0.0-py3.10.egg-info
+[0.569s] -- Installing: /wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim-0.0.0-py3.10.egg-info/top_level.txt
+[0.569s] -- Installing: /wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.569s] -- Installing: /wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.570s] -- Installing: /wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim-0.0.0-py3.10.egg-info/PKG-INFO
+[0.570s] -- Up-to-date: /wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim
+[0.570s] -- Up-to-date: /wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim/__init__.py
+[0.616s] Listing '/wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim'...
+[0.624s] -- Up-to-date: /wolvi/install/camera_sim/lib/camera_sim/sim_video.py
+[0.624s] -- Up-to-date: /wolvi/install/camera_sim/lib/camera_sim/cam_info_node.py
+[0.624s] -- Up-to-date: /wolvi/install/camera_sim/lib/camera_sim/sim_photo.py
+[0.625s] -- Up-to-date: /wolvi/install/camera_sim/share/ament_index/resource_index/package_run_dependencies/camera_sim
+[0.625s] -- Up-to-date: /wolvi/install/camera_sim/share/ament_index/resource_index/parent_prefix_path/camera_sim
+[0.625s] -- Up-to-date: /wolvi/install/camera_sim/share/camera_sim/environment/ament_prefix_path.sh
+[0.625s] -- Up-to-date: /wolvi/install/camera_sim/share/camera_sim/environment/ament_prefix_path.dsv
+[0.625s] -- Up-to-date: /wolvi/install/camera_sim/share/camera_sim/environment/path.sh
+[0.626s] -- Up-to-date: /wolvi/install/camera_sim/share/camera_sim/environment/path.dsv
+[0.626s] -- Up-to-date: /wolvi/install/camera_sim/share/camera_sim/local_setup.bash
+[0.626s] -- Up-to-date: /wolvi/install/camera_sim/share/camera_sim/local_setup.sh
+[0.626s] -- Up-to-date: /wolvi/install/camera_sim/share/camera_sim/local_setup.zsh
+[0.626s] -- Up-to-date: /wolvi/install/camera_sim/share/camera_sim/local_setup.dsv
+[0.627s] -- Up-to-date: /wolvi/install/camera_sim/share/camera_sim/package.dsv
+[0.627s] -- Up-to-date: /wolvi/install/camera_sim/share/ament_index/resource_index/packages/camera_sim
+[0.627s] -- Up-to-date: /wolvi/install/camera_sim/share/camera_sim/cmake/camera_simConfig.cmake
+[0.627s] -- Up-to-date: /wolvi/install/camera_sim/share/camera_sim/cmake/camera_simConfig-version.cmake
+[0.628s] -- Up-to-date: /wolvi/install/camera_sim/share/camera_sim/package.xml
+[0.631s] Invoked command in '/wolvi/build/camera_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/camera_sim

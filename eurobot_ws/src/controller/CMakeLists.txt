@@ -10,7 +10,6 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(ament_cmake_python REQUIRED)
-find_package(utils REQUIRED)
 
 ament_python_install_package(${PROJECT_NAME})
 
@@ -19,6 +18,7 @@ install( PROGRAMS
   scripts/first_driver.py
   scripts/utils/differential_drive.py
   scripts/utils/serial_communication.py
+  scripts/plot_traj.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

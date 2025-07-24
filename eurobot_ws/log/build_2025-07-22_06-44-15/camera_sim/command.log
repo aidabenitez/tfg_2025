@@ -1,0 +1,6 @@
+Invoking command in '/wolvi/build/camera_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/camera_sim -DCMAKE_INSTALL_PREFIX=/wolvi/install/camera_sim
+Invoked command in '/wolvi/build/camera_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/camera_sim -DCMAKE_INSTALL_PREFIX=/wolvi/install/camera_sim
+Invoking command in '/wolvi/build/camera_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/camera_sim -- -j16 -l16
+Invoked command in '/wolvi/build/camera_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/camera_sim -- -j16 -l16
+Invoking command in '/wolvi/build/camera_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/camera_sim
+Invoked command in '/wolvi/build/camera_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/camera_sim

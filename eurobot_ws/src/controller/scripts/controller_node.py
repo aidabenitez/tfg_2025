@@ -61,7 +61,7 @@ class ControllerNode(Node):
 
         # Instances
         self.first_driver_ = FirstDriver()
-        self.dif_drive_    = DifferentialWheel(l=0.23, radius=0.0475)
+        self.dif_drive_    = DifferentialWheel(l=0.21, radius=0.0475)
 
     
     def controller(self, velocities_msg):

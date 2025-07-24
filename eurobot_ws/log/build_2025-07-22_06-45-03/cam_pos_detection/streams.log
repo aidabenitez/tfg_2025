@@ -1,0 +1,58 @@
+[0.060s] Invoking command in '/wolvi/build/cam_pos_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/cam_pos_detection -- -j16 -l16
+[0.101s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.285s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.333s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.336s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.345s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.360s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.382s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.435s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.438s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.667s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.723s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.758s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.760s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.772s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.850s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.850s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/wolvi/src/cam_pos_detection/include>
+[0.850s] -- Configured cppcheck exclude dirs and/or files: 
+[0.851s] -- Added test 'lint_cmake' to check CMake code style
+[0.852s] -- Added test 'uncrustify' to check C / C++ code style
+[0.852s] -- Configured uncrustify additional arguments: 
+[0.852s] -- Added test 'xmllint' to check XML markup files
+[0.853s] -- Configuring done
+[0.869s] -- Generating done
+[0.875s] -- Build files have been written to: /wolvi/build/cam_pos_detection
+[0.926s] [35m[1mConsolidate compiler generated dependencies of target robot_position[0m
+[0.927s] [35m[1mConsolidate compiler generated dependencies of target report_img[0m
+[0.951s] [ 14%] [32mBuilding CXX object CMakeFiles/report_img.dir/src/report_img.cpp.o[0m
+[0.972s] [ 85%] Built target robot_position
+[2.814s] [100%] [32m[1mLinking CXX executable report_img[0m
+[3.269s] [100%] Built target report_img
+[3.290s] Invoked command in '/wolvi/build/cam_pos_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/cam_pos_detection -- -j16 -l16
+[3.294s] Invoking command in '/wolvi/build/cam_pos_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/cam_pos_detection
+[3.310s] -- Install configuration: ""
+[3.310s] -- Installing: /wolvi/install/cam_pos_detection/lib/cam_pos_detection/robot_position
+[3.319s] -- Set runtime path of "/wolvi/install/cam_pos_detection/lib/cam_pos_detection/robot_position" to ""
+[3.319s] -- Installing: /wolvi/install/cam_pos_detection/lib/cam_pos_detection/report_img
+[3.320s] -- Installing: /wolvi/install/cam_pos_detection/include/
+[3.320s] -- Installing: /wolvi/install/cam_pos_detection/include//cam_pos_detection
+[3.320s] -- Installing: /wolvi/install/cam_pos_detection/include//cam_pos_detection/image_processor.h
+[3.321s] -- Installing: /wolvi/install/cam_pos_detection/include//cam_pos_detection/pose_calculator.h
+[3.321s] -- Installing: /wolvi/install/cam_pos_detection/include//cam_pos_detection/aruco_detector.h
+[3.321s] -- Installing: /wolvi/install/cam_pos_detection/share/ament_index/resource_index/package_run_dependencies/cam_pos_detection
+[3.321s] -- Installing: /wolvi/install/cam_pos_detection/share/ament_index/resource_index/parent_prefix_path/cam_pos_detection
+[3.322s] -- Installing: /wolvi/install/cam_pos_detection/share/cam_pos_detection/environment/ament_prefix_path.sh
+[3.322s] -- Installing: /wolvi/install/cam_pos_detection/share/cam_pos_detection/environment/ament_prefix_path.dsv
+[3.322s] -- Installing: /wolvi/install/cam_pos_detection/share/cam_pos_detection/environment/path.sh
+[3.322s] -- Installing: /wolvi/install/cam_pos_detection/share/cam_pos_detection/environment/path.dsv
+[3.323s] -- Installing: /wolvi/install/cam_pos_detection/share/cam_pos_detection/local_setup.bash
+[3.323s] -- Installing: /wolvi/install/cam_pos_detection/share/cam_pos_detection/local_setup.sh
+[3.323s] -- Installing: /wolvi/install/cam_pos_detection/share/cam_pos_detection/local_setup.zsh
+[3.323s] -- Installing: /wolvi/install/cam_pos_detection/share/cam_pos_detection/local_setup.dsv
+[3.323s] -- Installing: /wolvi/install/cam_pos_detection/share/cam_pos_detection/package.dsv
+[3.324s] -- Installing: /wolvi/install/cam_pos_detection/share/ament_index/resource_index/packages/cam_pos_detection
+[3.324s] -- Installing: /wolvi/install/cam_pos_detection/share/cam_pos_detection/cmake/cam_pos_detectionConfig.cmake
+[3.324s] -- Installing: /wolvi/install/cam_pos_detection/share/cam_pos_detection/cmake/cam_pos_detectionConfig-version.cmake
+[3.324s] -- Installing: /wolvi/install/cam_pos_detection/share/cam_pos_detection/package.xml
+[3.327s] Invoked command in '/wolvi/build/cam_pos_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/cam_pos_detection

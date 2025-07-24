@@ -36,7 +36,7 @@ class SimpleNavigationNode(Node):
 
 
         # Timers 
-        self.tim_callback_  = self.create_timer(self.timer_period_, self.timer_callback)
+        self.tim_callback_ = self.create_timer(self.timer_period_, self.timer_callback)
 
     
     def timer_callback(self):
@@ -55,7 +55,7 @@ class SimpleNavigationNode(Node):
                 velocity_msg.angular.z = 0.0
             elif self.state_ == 1:
                 velocity_msg.linear.x = 0.0
-                velocity_msg.angular.z = 1.57
+                velocity_msg.angular.z = 1.2
 
             self.pub_velocity_.publish(velocity_msg)
 

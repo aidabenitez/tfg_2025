@@ -1,0 +1,725 @@
+[0.000000] (-) TimerEvent: {}
+[0.000349] (aruco_detection) JobQueued: {'identifier': 'aruco_detection', 'dependencies': OrderedDict()}
+[0.000454] (cam_pos_detection) JobQueued: {'identifier': 'cam_pos_detection', 'dependencies': OrderedDict()}
+[0.000663] (camera_sim) JobQueued: {'identifier': 'camera_sim', 'dependencies': OrderedDict()}
+[0.000716] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.000762] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict()}
+[0.000842] (navigation) JobQueued: {'identifier': 'navigation', 'dependencies': OrderedDict()}
+[0.000913] (aruco_detection) JobStarted: {'identifier': 'aruco_detection'}
+[0.017045] (cam_pos_detection) JobStarted: {'identifier': 'cam_pos_detection'}
+[0.026862] (camera_sim) JobStarted: {'identifier': 'camera_sim'}
+[0.031364] (controller) JobStarted: {'identifier': 'controller'}
+[0.036591] (localization) JobStarted: {'identifier': 'localization'}
+[0.043866] (navigation) JobStarted: {'identifier': 'navigation'}
+[0.069568] (aruco_detection) JobProgress: {'identifier': 'aruco_detection', 'progress': 'cmake'}
+[0.070261] (aruco_detection) Command: {'cmd': ['/usr/bin/cmake', '/wolvi/src/computing_zone/aruco_detection', '-DCMAKE_INSTALL_PREFIX=/wolvi/install/aruco_detection'], 'cwd': '/wolvi/build/aruco_detection', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/aruco_detection'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection')]), 'shell': False}
+[0.074416] (cam_pos_detection) JobProgress: {'identifier': 'cam_pos_detection', 'progress': 'cmake'}
+[0.075591] (cam_pos_detection) Command: {'cmd': ['/usr/bin/cmake', '/wolvi/src/cam_pos_detection', '-DCMAKE_INSTALL_PREFIX=/wolvi/install/cam_pos_detection'], 'cwd': '/wolvi/build/cam_pos_detection', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/cam_pos_detection'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble')]), 'shell': False}
+[0.078229] (camera_sim) JobProgress: {'identifier': 'camera_sim', 'progress': 'cmake'}
+[0.079142] (camera_sim) Command: {'cmd': ['/usr/bin/cmake', '/wolvi/src/camera_sim', '-DCMAKE_INSTALL_PREFIX=/wolvi/install/camera_sim'], 'cwd': '/wolvi/build/camera_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/camera_sim'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble')]), 'shell': False}
+[0.083242] (controller) JobProgress: {'identifier': 'controller', 'progress': 'cmake'}
+[0.084729] (controller) Command: {'cmd': ['/usr/bin/cmake', '/wolvi/src/controller', '-DCMAKE_INSTALL_PREFIX=/wolvi/install/controller'], 'cwd': '/wolvi/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/controller'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble')]), 'shell': False}
+[0.088235] (localization) JobProgress: {'identifier': 'localization', 'progress': 'cmake'}
+[0.090517] (localization) Command: {'cmd': ['/usr/bin/cmake', '/wolvi/src/localization', '-DCMAKE_INSTALL_PREFIX=/wolvi/install/localization'], 'cwd': '/wolvi/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/localization'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble')]), 'shell': False}
+[0.092683] (navigation) JobProgress: {'identifier': 'navigation', 'progress': 'cmake'}
+[0.093596] (navigation) Command: {'cmd': ['/usr/bin/cmake', '/wolvi/src/navigation', '-DCMAKE_INSTALL_PREFIX=/wolvi/install/navigation'], 'cwd': '/wolvi/build/navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/navigation'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble')]), 'shell': False}
+[0.099238] (-) TimerEvent: {}
+[0.199588] (-) TimerEvent: {}
+[0.237370] (controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.237841] (camera_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.243870] (localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.244593] (cam_pos_detection) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.245038] (aruco_detection) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.245192] (navigation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299743] (-) TimerEvent: {}
+[0.337038] (controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.349722] (aruco_detection) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.350057] (localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.351645] (controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.352673] (camera_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.353253] (navigation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.357790] (cam_pos_detection) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.365670] (localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.366102] (aruco_detection) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.366263] (camera_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.372345] (navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.375105] (cam_pos_detection) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399893] (-) TimerEvent: {}
+[0.489617] (aruco_detection) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.494697] (controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.497829] (localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.498764] (aruco_detection) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.499489] (aruco_detection) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.500004] (aruco_detection) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.500247] (-) TimerEvent: {}
+[0.501474] (camera_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.505116] (aruco_detection) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.506970] (navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.508603] (controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.509025] (controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.509680] (controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.512131] (localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.512554] (localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.513176] (localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.513780] (cam_pos_detection) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.514931] (camera_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.515302] (controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.515482] (camera_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.515909] (camera_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.518388] (localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.520650] (navigation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.521137] (camera_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.521345] (navigation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.521812] (navigation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.526769] (navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.527382] (cam_pos_detection) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.527784] (cam_pos_detection) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.528573] (cam_pos_detection) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.533035] (cam_pos_detection) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600431] (-) TimerEvent: {}
+[0.654365] (camera_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.654807] (aruco_detection) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.669371] (cam_pos_detection) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.669829] (localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.670517] (controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.671667] (camera_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.671999] (aruco_detection) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.672308] (camera_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.672636] (aruco_detection) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.672902] (camera_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.673201] (aruco_detection) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.673748] (navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.682663] (cam_pos_detection) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.682952] (cam_pos_detection) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.683527] (camera_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.683665] (cam_pos_detection) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.685375] (localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.685768] (localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.686346] (localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.687500] (cam_pos_detection) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.687790] (controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.688201] (controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.688812] (aruco_detection) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[0.689072] (controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.689314] (aruco_detection) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.689406] (navigation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.689670] (navigation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.690438] (navigation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.691162] (localization) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.693486] (controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.695855] (aruco_detection) StdoutLine: {'line': b'-- Generating done\n'}
+[0.696218] (navigation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.698453] (aruco_detection) StdoutLine: {'line': b'-- Build files have been written to: /wolvi/build/aruco_detection\n'}
+[0.700587] (-) TimerEvent: {}
+[0.703973] (aruco_detection) CommandEnded: {'returncode': 0}
+[0.704696] (aruco_detection) JobProgress: {'identifier': 'aruco_detection', 'progress': 'build'}
+[0.705527] (aruco_detection) Command: {'cmd': ['/usr/bin/cmake', '--build', '/wolvi/build/aruco_detection', '--', '-j16', '-l16'], 'cwd': '/wolvi/build/aruco_detection', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/aruco_detection'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection')]), 'shell': False}
+[0.800774] (-) TimerEvent: {}
+[0.807089] (aruco_detection) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/t_aruco_detection.dir/src/pose_estimation.cpp.o\x1b[0m\n'}
+[0.900913] (-) TimerEvent: {}
+[0.929128] (camera_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.931498] (localization) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.933107] (cam_pos_detection) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.936301] (controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.937705] (navigation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.001051] (-) TimerEvent: {}
+[1.081989] (controller) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.086146] (camera_sim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.087397] (cam_pos_detection) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.091383] (navigation) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.095166] (localization) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.101219] (-) TimerEvent: {}
+[1.147474] (controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.151109] (camera_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.156100] (cam_pos_detection) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.157011] (controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.159470] (camera_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.160237] (localization) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.162329] (navigation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.163233] (cam_pos_detection) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.167551] (localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.171555] (navigation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.171951] (controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.175016] (camera_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.175528] (cam_pos_detection) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.179056] (localization) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.186184] (navigation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.192921] (camera_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.195289] (controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.195668] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.196714] (cam_pos_detection) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201385] (-) TimerEvent: {}
+[1.208120] (navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.216719] (camera_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.220211] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.220597] (cam_pos_detection) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.226897] (controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.238342] (navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.283461] (camera_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.284461] (cam_pos_detection) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.287732] (camera_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.288607] (cam_pos_detection) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.289781] (localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.294852] (localization) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.301581] (-) TimerEvent: {}
+[1.307811] (controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.308337] (navigation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.312440] (navigation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.312853] (controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.401683] (-) TimerEvent: {}
+[1.491887] (camera_sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.495562] (cam_pos_detection) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.495977] (localization) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.501830] (-) TimerEvent: {}
+[1.504658] (navigation) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.506443] (controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.555838] (cam_pos_detection) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.556521] (localization) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.558115] (camera_sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.559574] (navigation) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.559910] (controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.602334] (-) TimerEvent: {}
+[1.642851] (navigation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.646683] (cam_pos_detection) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.654339] (camera_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.654573] (localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.661755] (cam_pos_detection) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.662901] (navigation) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.667578] (localization) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.668003] (camera_sim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.675922] (controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.691458] (controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.702488] (-) TimerEvent: {}
+[1.793356] (localization) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.793987] (localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.796849] (camera_sim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.797557] (camera_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.799701] (navigation) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.800118] (navigation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.802661] (-) TimerEvent: {}
+[1.816136] (cam_pos_detection) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.817069] (cam_pos_detection) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.828472] (controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.829422] (controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.902821] (-) TimerEvent: {}
+[1.934865] (localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.935257] (camera_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.936590] (camera_sim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.936908] (localization) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.937161] (navigation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.938713] (navigation) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.966101] (controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.969696] (controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.972950] (cam_pos_detection) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.975372] (cam_pos_detection) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.003020] (-) TimerEvent: {}
+[2.015757] (navigation) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.016005] (camera_sim) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.023278] (localization) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.042472] (controller) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.054147] (cam_pos_detection) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.103218] (-) TimerEvent: {}
+[2.109096] (cam_pos_detection) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[2.112387] (cam_pos_detection) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.119598] (cam_pos_detection) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.139228] (cam_pos_detection) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.148447] (camera_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.153969] (navigation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.165789] (localization) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.172374] (controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.203342] (-) TimerEvent: {}
+[2.268522] (cam_pos_detection) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.268972] (cam_pos_detection) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/wolvi/src/cam_pos_detection/include>\n'}
+[2.269172] (cam_pos_detection) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.269841] (cam_pos_detection) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.271863] (cam_pos_detection) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.272129] (cam_pos_detection) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.272706] (cam_pos_detection) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.275040] (cam_pos_detection) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.282939] (camera_sim) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.283995] (camera_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.284763] (camera_sim) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.287392] (camera_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.289304] (camera_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.290985] (localization) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.291899] (localization) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.292848] (localization) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.294875] (localization) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.296769] (localization) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.298505] (camera_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[2.298822] (navigation) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.300464] (navigation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.301818] (camera_sim) StdoutLine: {'line': b'-- Build files have been written to: /wolvi/build/camera_sim\n'}
+[2.302074] (navigation) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.303060] (cam_pos_detection) StdoutLine: {'line': b'-- Generating done\n'}
+[2.303410] (-) TimerEvent: {}
+[2.304055] (navigation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.306476] (navigation) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.309062] (localization) StdoutLine: {'line': b'-- Generating done\n'}
+[2.310408] (cam_pos_detection) StdoutLine: {'line': b'-- Build files have been written to: /wolvi/build/cam_pos_detection\n'}
+[2.310756] (controller) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.311953] (controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.312888] (localization) StdoutLine: {'line': b'-- Build files have been written to: /wolvi/build/localization\n'}
+[2.313197] (controller) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.315490] (controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.317009] (navigation) StdoutLine: {'line': b'-- Generating done\n'}
+[2.318098] (controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.318868] (camera_sim) CommandEnded: {'returncode': 0}
+[2.319875] (camera_sim) JobProgress: {'identifier': 'camera_sim', 'progress': 'build'}
+[2.320593] (camera_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/wolvi/build/camera_sim', '--', '-j16', '-l16'], 'cwd': '/wolvi/build/camera_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/camera_sim'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble')]), 'shell': False}
+[2.323814] (navigation) StdoutLine: {'line': b'-- Build files have been written to: /wolvi/build/navigation\n'}
+[2.327828] (controller) StdoutLine: {'line': b'-- Generating done\n'}
+[2.329153] (localization) CommandEnded: {'returncode': 0}
+[2.330214] (localization) JobProgress: {'identifier': 'localization', 'progress': 'build'}
+[2.330775] (localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/wolvi/build/localization', '--', '-j16', '-l16'], 'cwd': '/wolvi/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/localization'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble')]), 'shell': False}
+[2.332138] (controller) StdoutLine: {'line': b'-- Build files have been written to: /wolvi/build/controller\n'}
+[2.333434] (cam_pos_detection) CommandEnded: {'returncode': 0}
+[2.334390] (cam_pos_detection) JobProgress: {'identifier': 'cam_pos_detection', 'progress': 'build'}
+[2.336158] (cam_pos_detection) Command: {'cmd': ['/usr/bin/cmake', '--build', '/wolvi/build/cam_pos_detection', '--', '-j16', '-l16'], 'cwd': '/wolvi/build/cam_pos_detection', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/cam_pos_detection'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble')]), 'shell': False}
+[2.339759] (navigation) CommandEnded: {'returncode': 0}
+[2.340637] (navigation) JobProgress: {'identifier': 'navigation', 'progress': 'build'}
+[2.341230] (navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/wolvi/build/navigation', '--', '-j16', '-l16'], 'cwd': '/wolvi/build/navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/navigation'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble')]), 'shell': False}
+[2.348293] (controller) CommandEnded: {'returncode': 0}
+[2.350089] (controller) JobProgress: {'identifier': 'controller', 'progress': 'build'}
+[2.350207] (controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/wolvi/build/controller', '--', '-j16', '-l16'], 'cwd': '/wolvi/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/controller'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble')]), 'shell': False}
+[2.403570] (-) TimerEvent: {}
+[2.418329] (camera_sim) StdoutLine: {'line': b'Built target ament_cmake_python_copy_camera_sim\n'}
+[2.429415] (cam_pos_detection) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/report_img.dir/src/report_img.cpp.o\x1b[0m\n'}
+[2.430616] (cam_pos_detection) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/robot_position.dir/src/image_processor.cpp.o\x1b[0m\n'}
+[2.430797] (cam_pos_detection) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/robot_position.dir/src/aruco_detector.cpp.o\x1b[0m\n'}
+[2.431033] (cam_pos_detection) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/robot_position.dir/src/robot_position_node.cpp.o\x1b[0m\n'}
+[2.432111] (cam_pos_detection) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/robot_position.dir/src/pose_calculator.cpp.o\x1b[0m\n'}
+[2.448188] (localization) StdoutLine: {'line': b'Built target ament_cmake_python_copy_localization\n'}
+[2.455384] (navigation) StdoutLine: {'line': b'Built target ament_cmake_python_copy_navigation\n'}
+[2.456407] (controller) StdoutLine: {'line': b'Built target ament_cmake_python_copy_controller\n'}
+[2.503720] (-) TimerEvent: {}
+[2.605490] (-) TimerEvent: {}
+[2.706871] (-) TimerEvent: {}
+[2.808376] (-) TimerEvent: {}
+[2.889724] (localization) StdoutLine: {'line': b'running egg_info\n'}
+[2.891193] (localization) StdoutLine: {'line': b'creating localization.egg-info\n'}
+[2.891561] (camera_sim) StdoutLine: {'line': b'running egg_info\n'}
+[2.891855] (localization) StdoutLine: {'line': b'writing localization.egg-info/PKG-INFO\n'}
+[2.892202] (localization) StdoutLine: {'line': b'writing dependency_links to localization.egg-info/dependency_links.txt\n'}
+[2.892563] (localization) StdoutLine: {'line': b'writing top-level names to localization.egg-info/top_level.txt\n'}
+[2.892835] (camera_sim) StdoutLine: {'line': b'creating camera_sim.egg-info\n'}
+[2.893072] (localization) StdoutLine: {'line': b"writing manifest file 'localization.egg-info/SOURCES.txt'\n"}
+[2.893296] (camera_sim) StdoutLine: {'line': b'writing camera_sim.egg-info/PKG-INFO\n'}
+[2.893556] (camera_sim) StdoutLine: {'line': b'writing dependency_links to camera_sim.egg-info/dependency_links.txt\n'}
+[2.893932] (camera_sim) StdoutLine: {'line': b'writing top-level names to camera_sim.egg-info/top_level.txt\n'}
+[2.894433] (camera_sim) StdoutLine: {'line': b"writing manifest file 'camera_sim.egg-info/SOURCES.txt'\n"}
+[2.897940] (localization) StdoutLine: {'line': b"reading manifest file 'localization.egg-info/SOURCES.txt'\n"}
+[2.899038] (localization) StdoutLine: {'line': b"writing manifest file 'localization.egg-info/SOURCES.txt'\n"}
+[2.899386] (camera_sim) StdoutLine: {'line': b"reading manifest file 'camera_sim.egg-info/SOURCES.txt'\n"}
+[2.900352] (camera_sim) StdoutLine: {'line': b"writing manifest file 'camera_sim.egg-info/SOURCES.txt'\n"}
+[2.902510] (controller) StdoutLine: {'line': b'running egg_info\n'}
+[2.903059] (controller) StdoutLine: {'line': b'creating controller.egg-info\n'}
+[2.903405] (controller) StdoutLine: {'line': b'writing controller.egg-info/PKG-INFO\n'}
+[2.903647] (controller) StdoutLine: {'line': b'writing dependency_links to controller.egg-info/dependency_links.txt\n'}
+[2.903813] (controller) StdoutLine: {'line': b'writing top-level names to controller.egg-info/top_level.txt\n'}
+[2.903944] (controller) StdoutLine: {'line': b"writing manifest file 'controller.egg-info/SOURCES.txt'\n"}
+[2.908697] (controller) StdoutLine: {'line': b"reading manifest file 'controller.egg-info/SOURCES.txt'\n"}
+[2.909053] (-) TimerEvent: {}
+[2.910127] (controller) StdoutLine: {'line': b"writing manifest file 'controller.egg-info/SOURCES.txt'\n"}
+[2.919106] (navigation) StdoutLine: {'line': b'running egg_info\n'}
+[2.920735] (navigation) StdoutLine: {'line': b'creating navigation.egg-info\n'}
+[2.921267] (navigation) StdoutLine: {'line': b'writing navigation.egg-info/PKG-INFO\n'}
+[2.921731] (navigation) StdoutLine: {'line': b'writing dependency_links to navigation.egg-info/dependency_links.txt\n'}
+[2.922075] (navigation) StdoutLine: {'line': b'writing top-level names to navigation.egg-info/top_level.txt\n'}
+[2.922663] (navigation) StdoutLine: {'line': b"writing manifest file 'navigation.egg-info/SOURCES.txt'\n"}
+[2.928092] (navigation) StdoutLine: {'line': b"reading manifest file 'navigation.egg-info/SOURCES.txt'\n"}
+[2.930035] (navigation) StdoutLine: {'line': b"writing manifest file 'navigation.egg-info/SOURCES.txt'\n"}
+[2.993737] (camera_sim) StdoutLine: {'line': b'Built target ament_cmake_python_build_camera_sim_egg\n'}
+[3.003715] (localization) StdoutLine: {'line': b'Built target ament_cmake_python_build_localization_egg\n'}
+[3.004713] (controller) StdoutLine: {'line': b'Built target ament_cmake_python_build_controller_egg\n'}
+[3.009244] (-) TimerEvent: {}
+[3.019140] (camera_sim) CommandEnded: {'returncode': 0}
+[3.023080] (camera_sim) JobProgress: {'identifier': 'camera_sim', 'progress': 'install'}
+[3.033004] (navigation) StdoutLine: {'line': b'Built target ament_cmake_python_build_navigation_egg\n'}
+[3.037050] (camera_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/wolvi/build/camera_sim'], 'cwd': '/wolvi/build/camera_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/camera_sim'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble')]), 'shell': False}
+[3.040869] (controller) CommandEnded: {'returncode': 0}
+[3.043518] (controller) JobProgress: {'identifier': 'controller', 'progress': 'install'}
+[3.043926] (controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/wolvi/build/controller'], 'cwd': '/wolvi/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/controller'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble')]), 'shell': False}
+[3.044790] (localization) CommandEnded: {'returncode': 0}
+[3.046083] (localization) JobProgress: {'identifier': 'localization', 'progress': 'install'}
+[3.046638] (localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/wolvi/build/localization'], 'cwd': '/wolvi/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/localization'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble')]), 'shell': False}
+[3.049168] (camera_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.049771] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/camera_sim/environment/pythonpath.sh\n'}
+[3.051224] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/camera_sim/environment/pythonpath.dsv\n'}
+[3.051466] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim-0.0.0-py3.10.egg-info\n'}
+[3.051608] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.051937] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.052289] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.052444] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.052640] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim\n'}
+[3.053012] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim/__init__.py\n'}
+[3.055816] (navigation) CommandEnded: {'returncode': 0}
+[3.056789] (controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.057453] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/controller/environment/pythonpath.sh\n'}
+[3.057765] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/controller/environment/pythonpath.dsv\n'}
+[3.057934] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info\n'}
+[3.058578] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.058823] (navigation) JobProgress: {'identifier': 'navigation', 'progress': 'install'}
+[3.058875] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.059017] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.059259] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.059406] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller\n'}
+[3.059528] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller/__init__.py\n'}
+[3.061357] (navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/wolvi/build/navigation'], 'cwd': '/wolvi/build/navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'aida-HP-Pavilion-Laptop-14-ec0xxx'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/wolvi/install/tutorial_interfaces/lib:/wolvi/install/cam_pos_detection/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/var/run/dbus/system_bus_socket'), ('COLCON_PREFIX_PATH', '/wolvi/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/wolvi/build/navigation'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/wolvi/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/wolvi/install/navigation/local/lib/python3.10/dist-packages:/wolvi/install/localization/local/lib/python3.10/dist-packages:/wolvi/install/controller/local/lib/python3.10/dist-packages:/wolvi/install/camera_sim/local/lib/python3.10/dist-packages:/wolvi/install/cam_pos_detection/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble')]), 'shell': False}
+[3.066863] (localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.067289] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/localization/environment/pythonpath.sh\n'}
+[3.067773] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/localization/environment/pythonpath.dsv\n'}
+[3.068070] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/local/lib/python3.10/dist-packages/localization-0.0.0-py3.10.egg-info\n'}
+[3.068464] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/local/lib/python3.10/dist-packages/localization-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.068931] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/local/lib/python3.10/dist-packages/localization-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.069236] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/local/lib/python3.10/dist-packages/localization-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.069462] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/local/lib/python3.10/dist-packages/localization-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.069792] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/local/lib/python3.10/dist-packages/localization\n'}
+[3.070026] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/local/lib/python3.10/dist-packages/localization/__init__.py\n'}
+[3.074325] (navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.074636] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/navigation/environment/pythonpath.sh\n'}
+[3.074844] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/navigation/environment/pythonpath.dsv\n'}
+[3.075005] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info\n'}
+[3.075516] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.075797] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.075994] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.076201] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.077027] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation\n'}
+[3.077375] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation/__init__.py\n'}
+[3.109593] (-) TimerEvent: {}
+[3.119794] (camera_sim) StdoutLine: {'line': b"Listing '/wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim'...\n"}
+[3.120164] (camera_sim) StdoutLine: {'line': b"Compiling '/wolvi/install/camera_sim/local/lib/python3.10/dist-packages/camera_sim/__init__.py'...\n"}
+[3.132090] (localization) StdoutLine: {'line': b"Listing '/wolvi/install/localization/local/lib/python3.10/dist-packages/localization'...\n"}
+[3.132418] (localization) StdoutLine: {'line': b"Compiling '/wolvi/install/localization/local/lib/python3.10/dist-packages/localization/__init__.py'...\n"}
+[3.132752] (controller) StdoutLine: {'line': b"Listing '/wolvi/install/controller/local/lib/python3.10/dist-packages/controller'...\n"}
+[3.132949] (controller) StdoutLine: {'line': b"Compiling '/wolvi/install/controller/local/lib/python3.10/dist-packages/controller/__init__.py'...\n"}
+[3.134909] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/lib/camera_sim/sim_video.py\n'}
+[3.135280] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/lib/camera_sim/cam_info_node.py\n'}
+[3.135661] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/lib/camera_sim/sim_photo.py\n'}
+[3.137615] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/ament_index/resource_index/package_run_dependencies/camera_sim\n'}
+[3.137962] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/ament_index/resource_index/parent_prefix_path/camera_sim\n'}
+[3.138060] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/camera_sim/environment/ament_prefix_path.sh\n'}
+[3.139751] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/camera_sim/environment/ament_prefix_path.dsv\n'}
+[3.140043] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/camera_sim/environment/path.sh\n'}
+[3.140137] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/camera_sim/environment/path.dsv\n'}
+[3.140214] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/camera_sim/local_setup.bash\n'}
+[3.140289] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/camera_sim/local_setup.sh\n'}
+[3.141062] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/camera_sim/local_setup.zsh\n'}
+[3.146352] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/camera_sim/local_setup.dsv\n'}
+[3.146702] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/camera_sim/package.dsv\n'}
+[3.146793] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/ament_index/resource_index/packages/camera_sim\n'}
+[3.146880] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/camera_sim/cmake/camera_simConfig.cmake\n'}
+[3.146965] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/camera_sim/cmake/camera_simConfig-version.cmake\n'}
+[3.147045] (camera_sim) StdoutLine: {'line': b'-- Installing: /wolvi/install/camera_sim/share/camera_sim/package.xml\n'}
+[3.148187] (camera_sim) CommandEnded: {'returncode': 0}
+[3.149717] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/ament_index/resource_index/package_run_dependencies/localization\n'}
+[3.151088] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/lib/controller/controller_node.py\n'}
+[3.151767] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/lib/controller/first_driver.py\n'}
+[3.152319] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/lib/controller/differential_drive.py\n'}
+[3.152962] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/lib/controller/serial_communication.py\n'}
+[3.153393] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/ament_index/resource_index/parent_prefix_path/localization\n'}
+[3.153741] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/localization/environment/ament_prefix_path.sh\n'}
+[3.154391] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/localization/environment/ament_prefix_path.dsv\n'}
+[3.157235] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/localization/environment/path.sh\n'}
+[3.157538] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/localization/environment/path.dsv\n'}
+[3.157687] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/localization/local_setup.bash\n'}
+[3.157824] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/localization/local_setup.sh\n'}
+[3.157962] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/localization/local_setup.zsh\n'}
+[3.158247] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/ament_index/resource_index/package_run_dependencies/controller\n'}
+[3.158897] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/localization/local_setup.dsv\n'}
+[3.159065] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/ament_index/resource_index/parent_prefix_path/controller\n'}
+[3.159202] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/controller/environment/ament_prefix_path.sh\n'}
+[3.159331] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/controller/environment/ament_prefix_path.dsv\n'}
+[3.159459] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/localization/package.dsv\n'}
+[3.159575] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/ament_index/resource_index/packages/localization\n'}
+[3.159678] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/controller/environment/path.sh\n'}
+[3.159790] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/localization/cmake/localizationConfig.cmake\n'}
+[3.160035] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/controller/environment/path.dsv\n'}
+[3.160205] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/controller/local_setup.bash\n'}
+[3.160320] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/localization/cmake/localizationConfig-version.cmake\n'}
+[3.160446] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/controller/local_setup.sh\n'}
+[3.160936] (localization) StdoutLine: {'line': b'-- Installing: /wolvi/install/localization/share/localization/package.xml\n'}
+[3.161144] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/controller/local_setup.zsh\n'}
+[3.161286] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/controller/local_setup.dsv\n'}
+[3.161414] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/controller/package.dsv\n'}
+[3.161542] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/ament_index/resource_index/packages/controller\n'}
+[3.161678] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/controller/cmake/controllerConfig.cmake\n'}
+[3.161858] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/controller/cmake/controllerConfig-version.cmake\n'}
+[3.161993] (controller) StdoutLine: {'line': b'-- Installing: /wolvi/install/controller/share/controller/package.xml\n'}
+[3.162116] (navigation) StdoutLine: {'line': b"Listing '/wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation'...\n"}
+[3.162294] (navigation) StdoutLine: {'line': b"Compiling '/wolvi/install/navigation/local/lib/python3.10/dist-packages/navigation/__init__.py'...\n"}
+[3.176939] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/lib/navigation/simple_navigation_node.py\n'}
+[3.178077] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/ament_index/resource_index/package_run_dependencies/navigation\n'}
+[3.179950] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/ament_index/resource_index/parent_prefix_path/navigation\n'}
+[3.180164] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/navigation/environment/ament_prefix_path.sh\n'}
+[3.180322] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/navigation/environment/ament_prefix_path.dsv\n'}
+[3.180601] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/navigation/environment/path.sh\n'}
+[3.182242] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/navigation/environment/path.dsv\n'}
+[3.182481] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/navigation/local_setup.bash\n'}
+[3.182666] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/navigation/local_setup.sh\n'}
+[3.182829] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/navigation/local_setup.zsh\n'}
+[3.182984] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/navigation/local_setup.dsv\n'}
+[3.183324] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/navigation/package.dsv\n'}
+[3.183680] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/ament_index/resource_index/packages/navigation\n'}
+[3.184020] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/navigation/cmake/navigationConfig.cmake\n'}
+[3.184343] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/navigation/cmake/navigationConfig-version.cmake\n'}
+[3.185195] (navigation) StdoutLine: {'line': b'-- Installing: /wolvi/install/navigation/share/navigation/package.xml\n'}
+[3.208074] (camera_sim) JobEnded: {'identifier': 'camera_sim', 'rc': 0}
+[3.210218] (-) TimerEvent: {}
+[3.211668] (controller) CommandEnded: {'returncode': 0}
+[3.242391] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[3.245725] (localization) CommandEnded: {'returncode': 0}
+[3.296286] (localization) JobEnded: {'identifier': 'localization', 'rc': 0}
+[3.298376] (navigation) CommandEnded: {'returncode': 0}
+[3.310733] (-) TimerEvent: {}
+[3.318982] (navigation) JobEnded: {'identifier': 'navigation', 'rc': 0}
+[3.410959] (-) TimerEvent: {}
+[3.511531] (-) TimerEvent: {}
+[3.612084] (-) TimerEvent: {}
+[3.712740] (-) TimerEvent: {}
+[3.813207] (-) TimerEvent: {}
+[3.913683] (-) TimerEvent: {}
+[4.014207] (-) TimerEvent: {}
+[4.114736] (-) TimerEvent: {}
+[4.215265] (-) TimerEvent: {}
+[4.315740] (-) TimerEvent: {}
+[4.416331] (-) TimerEvent: {}
+[4.516913] (-) TimerEvent: {}
+[4.617415] (-) TimerEvent: {}
+[4.659305] (aruco_detection) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable t_aruco_detection\x1b[0m\n'}
+[4.717549] (-) TimerEvent: {}
+[4.817959] (-) TimerEvent: {}
+[4.918405] (-) TimerEvent: {}
+[5.018947] (-) TimerEvent: {}
+[5.119556] (-) TimerEvent: {}
+[5.220041] (-) TimerEvent: {}
+[5.290880] (aruco_detection) StdoutLine: {'line': b'[100%] Built target t_aruco_detection\n'}
+[5.315501] (aruco_detection) CommandEnded: {'returncode': 0}
+[5.320510] (-) TimerEvent: {}
+[5.326721] (aruco_detection) JobEnded: {'identifier': 'aruco_detection', 'rc': 0}
+[5.420621] (-) TimerEvent: {}
+[5.521066] (-) TimerEvent: {}
+[5.564872] (cam_pos_detection) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable report_img\x1b[0m\n'}
+[5.621265] (-) TimerEvent: {}
+[5.681657] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/report_img.dir/src/report_img.cpp.o: in function `parse_camera_matrix(std::istream&)':\n"}
+[5.682359] (cam_pos_detection) StderrLine: {'line': b"report_img.cpp:(.text+0x47): undefined reference to `cv::Mat::Mat(int, int, int)'\n"}
+[5.682610] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x3b6): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.682838] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/report_img.dir/src/report_img.cpp.o: in function `parse_dist_coeffs(std::istream&)':\n"}
+[5.683108] (cam_pos_detection) StderrLine: {'line': b"report_img.cpp:(.text+0x41e): undefined reference to `cv::Mat::Mat(int, int, int)'\n"}
+[5.683311] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x684): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.683517] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/report_img.dir/src/report_img.cpp.o: in function `main':\n"}
+[5.683749] (cam_pos_detection) StderrLine: {'line': b"report_img.cpp:(.text+0x721): undefined reference to `cv::imread(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'\n"}
+[5.683983] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x7f2): undefined reference to `cv::Mat::Mat()'\n"}
+[5.684186] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x8bd): undefined reference to `cv::getOptimalNewCameraMatrix(cv::_InputArray const&, cv::_InputArray const&, cv::Size_<int>, double, cv::Size_<int>, cv::Rect_<int>*, bool)'\n"}
+[5.684444] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x8da): undefined reference to `cv::Mat::operator=(cv::Mat&&)'\n"}
+[5.684670] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x8e9): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.684835] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x916): undefined reference to `cv::Mat::Mat()'\n"}
+[5.684989] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x9ca): undefined reference to `cv::undistort(cv::_InputArray const&, cv::_OutputArray const&, cv::_InputArray const&, cv::_InputArray const&, cv::_InputArray const&)'\n"}
+[5.685196] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0xa4e): undefined reference to `cv::Mat::operator=(cv::Mat&&)'\n"}
+[5.686153] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0xa5d): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.686315] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0xa6c): undefined reference to `cv::Mat::empty() const'\n"}
+[5.686464] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0xab9): undefined reference to `cv::aruco::getPredefinedDictionary(cv::aruco::PREDEFINED_DICTIONARY_NAME)'\n"}
+[5.686658] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0xae6): undefined reference to `cv::Mat::Mat()'\n"}
+[5.686842] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0xb38): undefined reference to `cv::cvtColor(cv::_InputArray const&, cv::_OutputArray const&, int, int)'\n"}
+[5.687192] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0xba1): undefined reference to `cv::equalizeHist(cv::_InputArray const&, cv::_OutputArray const&)'\n"}
+[5.687368] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0xbc4): undefined reference to `cv::noArray()'\n"}
+[5.687501] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0xbcc): undefined reference to `cv::noArray()'\n"}
+[5.687631] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0xbd8): undefined reference to `cv::noArray()'\n"}
+[5.687759] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0xbee): undefined reference to `cv::aruco::DetectorParameters::create()'\n"}
+[5.687889] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0xc75): undefined reference to `cv::aruco::detectMarkers(cv::_InputArray const&, cv::Ptr<cv::aruco::Dictionary> const&, cv::_OutputArray const&, cv::_OutputArray const&, cv::Ptr<cv::aruco::DetectorParameters> const&, cv::_OutputArray const&, cv::_InputArray const&, cv::_InputArray const&)'\n"}
+[5.688027] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x124e): undefined reference to `cv::Mat::Mat()'\n"}
+[5.688157] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x125d): undefined reference to `cv::Mat::Mat()'\n"}
+[5.688287] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x132f): undefined reference to `cv::solvePnP(cv::_InputArray const&, cv::_InputArray const&, cv::_InputArray const&, cv::_InputArray const&, cv::_OutputArray const&, cv::_OutputArray const&, bool, int)'\n"}
+[5.688421] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x139c): undefined reference to `cv::Mat::Mat()'\n"}
+[5.688606] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x13a1): undefined reference to `cv::noArray()'\n"}
+[5.688734] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x13f2): undefined reference to `cv::Rodrigues(cv::_InputArray const&, cv::_OutputArray const&, cv::_OutputArray const&)'\n"}
+[5.688876] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1429): undefined reference to `cv::Mat::t() const'\n"}
+[5.689000] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x151f): undefined reference to `cv::Mat::Mat(cv::Mat&&)'\n"}
+[5.689127] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1556): undefined reference to `cv::operator-(cv::Mat const&)'\n"}
+[5.689248] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1576): undefined reference to `cv::operator*(cv::MatExpr const&, cv::Mat const&)'\n"}
+[5.689382] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x16c4): undefined reference to `cv::imread(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'\n"}
+[5.689503] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1705): undefined reference to `cv::noArray()'\n"}
+[5.689632] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x170d): undefined reference to `cv::noArray()'\n"}
+[5.689749] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1715): undefined reference to `cv::noArray()'\n"}
+[5.689869] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1727): undefined reference to `cv::aruco::DetectorParameters::create()'\n"}
+[5.689993] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x17a6): undefined reference to `cv::aruco::detectMarkers(cv::_InputArray const&, cv::Ptr<cv::aruco::Dictionary> const&, cv::_OutputArray const&, cv::_OutputArray const&, cv::Ptr<cv::aruco::DetectorParameters> const&, cv::_OutputArray const&, cv::_InputArray const&, cv::_InputArray const&)'\n"}
+[5.690119] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1ad0): undefined reference to `cv::Mat::Mat()'\n"}
+[5.690255] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1adf): undefined reference to `cv::Mat::Mat()'\n"}
+[5.690375] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1bb1): undefined reference to `cv::solvePnP(cv::_InputArray const&, cv::_InputArray const&, cv::_InputArray const&, cv::_InputArray const&, cv::_OutputArray const&, cv::_OutputArray const&, bool, int)'\n"}
+[5.690499] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1c1e): undefined reference to `cv::Mat::Mat()'\n"}
+[5.690623] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1c23): undefined reference to `cv::noArray()'\n"}
+[5.690744] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1c74): undefined reference to `cv::Rodrigues(cv::_InputArray const&, cv::_OutputArray const&, cv::_OutputArray const&)'\n"}
+[5.690866] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1d60): undefined reference to `cv::Mat::Mat(cv::Mat&&)'\n"}
+[5.690988] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1d9e): undefined reference to `cv::operator*(cv::Mat const&, cv::Mat const&)'\n"}
+[5.691112] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1dbe): undefined reference to `cv::operator+(cv::MatExpr const&, cv::Mat const&)'\n"}
+[5.691234] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x1ff2): undefined reference to `cv::noArray()'\n"}
+[5.691355] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x20ce): undefined reference to `cv::projectPoints(cv::_InputArray const&, cv::_InputArray const&, cv::_InputArray const&, cv::_InputArray const&, cv::_InputArray const&, cv::_OutputArray const&, cv::_OutputArray const&, double)'\n"}
+[5.691482] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x21cc): undefined reference to `cv::circle(cv::_InputOutputArray const&, cv::Point_<int>, int, cv::Scalar_<double> const&, int, int, int)'\n"}
+[5.691605] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x2287): undefined reference to `cv::circle(cv::_InputOutputArray const&, cv::Point_<int>, int, cv::Scalar_<double> const&, int, int, int)'\n"}
+[5.691725] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x2315): undefined reference to `cv::resize(cv::_InputArray const&, cv::_OutputArray const&, cv::Size_<int>, double, double, int)'\n"}
+[5.691845] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x2394): undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'\n"}
+[5.691967] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x23cb): undefined reference to `cv::waitKey(int)'\n"}
+[5.692084] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x23d0): undefined reference to `cv::destroyAllWindows()'\n"}
+[5.692223] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x2402): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.692343] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x2411): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.692463] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x2420): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.692689] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x242f): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.692817] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text+0x243e): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.692939] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/report_img.dir/src/report_img.cpp.o:report_img.cpp:(.text+0x2498): more undefined references to `cv::Mat::~Mat()' follow\n"}
+[5.693064] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/report_img.dir/src/report_img.cpp.o: in function `cv::Mat::operator()(cv::Rect_<int> const&) const':\n"}
+[5.693187] (cam_pos_detection) StderrLine: {'line': b"report_img.cpp:(.text._ZNK2cv3MatclERKNS_5Rect_IiEE[_ZNK2cv3MatclERKNS_5Rect_IiEE]+0x2b): undefined reference to `cv::Mat::Mat(cv::Mat const&, cv::Rect_<int> const&)'\n"}
+[5.693312] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/report_img.dir/src/report_img.cpp.o: in function `cv::MatConstIterator::MatConstIterator(cv::Mat const*)':\n"}
+[5.693448] (cam_pos_detection) StderrLine: {'line': b"report_img.cpp:(.text._ZN2cv16MatConstIteratorC2EPKNS_3MatE[_ZN2cv16MatConstIteratorC5EPKNS_3MatE]+0xa5): undefined reference to `cv::Mat::empty() const'\n"}
+[5.693547] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv16MatConstIteratorC2EPKNS_3MatE[_ZN2cv16MatConstIteratorC5EPKNS_3MatE]+0xfa): undefined reference to `cv::error(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*, char const*, int)'\n"}
+[5.693606] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv16MatConstIteratorC2EPKNS_3MatE[_ZN2cv16MatConstIteratorC5EPKNS_3MatE]+0x12d): undefined reference to `cv::Mat::total() const'\n"}
+[5.693663] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv16MatConstIteratorC2EPKNS_3MatE[_ZN2cv16MatConstIteratorC5EPKNS_3MatE]+0x15b): undefined reference to `cv::MatConstIterator::seek(int const*, bool)'\n"}
+[5.693721] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/report_img.dir/src/report_img.cpp.o: in function `cv::MatConstIterator::operator++()':\n"}
+[5.693784] (cam_pos_detection) StderrLine: {'line': b"report_img.cpp:(.text._ZN2cv16MatConstIteratorppEv[_ZN2cv16MatConstIteratorppEv]+0x8c): undefined reference to `cv::MatConstIterator::seek(long, bool)'\n"}
+[5.693842] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/report_img.dir/src/report_img.cpp.o: in function `cv::MatExpr::operator cv::Mat() const':\n"}
+[5.693920] (cam_pos_detection) StderrLine: {'line': b"report_img.cpp:(.text._ZNK2cv7MatExprcvNS_3MatEEv[_ZNK2cv7MatExprcvNS_3MatEEv]+0x1d): undefined reference to `cv::Mat::Mat()'\n"}
+[5.693995] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZNK2cv7MatExprcvNS_3MatEEv[_ZNK2cv7MatExprcvNS_3MatEEv]+0x5d): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.694079] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/report_img.dir/src/report_img.cpp.o: in function `cv::Mat_<double>::~Mat_()':\n"}
+[5.694154] (cam_pos_detection) StderrLine: {'line': b"report_img.cpp:(.text._ZN2cv4Mat_IdED2Ev[_ZN2cv4Mat_IdED5Ev]+0x18): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.694237] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/report_img.dir/src/report_img.cpp.o: in function `cv::MatExpr::~MatExpr()':\n"}
+[5.694321] (cam_pos_detection) StderrLine: {'line': b"report_img.cpp:(.text._ZN2cv7MatExprD2Ev[_ZN2cv7MatExprD5Ev]+0x1e): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.694402] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv7MatExprD2Ev[_ZN2cv7MatExprD5Ev]+0x2e): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.694460] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv7MatExprD2Ev[_ZN2cv7MatExprD5Ev]+0x3e): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.694516] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/report_img.dir/src/report_img.cpp.o: in function `cv::Mat_<double>::Mat_(int, int)':\n"}
+[5.694582] (cam_pos_detection) StderrLine: {'line': b"report_img.cpp:(.text._ZN2cv4Mat_IdEC2Eii[_ZN2cv4Mat_IdEC5Eii]+0x29): undefined reference to `cv::Mat::Mat(int, int, int)'\n"}
+[5.694643] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/report_img.dir/src/report_img.cpp.o: in function `cv::Mat_<double>::Mat_(cv::Mat const&)':\n"}
+[5.694703] (cam_pos_detection) StderrLine: {'line': b"report_img.cpp:(.text._ZN2cv4Mat_IdEC2ERKNS_3MatE[_ZN2cv4Mat_IdEC5ERKNS_3MatE]+0x1d): undefined reference to `cv::Mat::Mat()'\n"}
+[5.694764] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv4Mat_IdEC2ERKNS_3MatE[_ZN2cv4Mat_IdEC5ERKNS_3MatE]+0x59): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.694824] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/report_img.dir/src/report_img.cpp.o: in function `cv::Mat_<double>::operator=(cv::Mat const&)':\n"}
+[5.694885] (cam_pos_detection) StderrLine: {'line': b"report_img.cpp:(.text._ZN2cv4Mat_IdEaSERKNS_3MatE[_ZN2cv4Mat_IdEaSERKNS_3MatE]+0x38): undefined reference to `cv::Mat::empty() const'\n"}
+[5.694946] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv4Mat_IdEaSERKNS_3MatE[_ZN2cv4Mat_IdEaSERKNS_3MatE]+0x89): undefined reference to `cv::Mat::operator=(cv::Mat const&)'\n"}
+[5.695014] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv4Mat_IdEaSERKNS_3MatE[_ZN2cv4Mat_IdEaSERKNS_3MatE]+0xd8): undefined reference to `cv::Mat::reshape(int, int, int const*) const'\n"}
+[5.695076] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv4Mat_IdEaSERKNS_3MatE[_ZN2cv4Mat_IdEaSERKNS_3MatE]+0xfe): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.695136] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv4Mat_IdEaSERKNS_3MatE[_ZN2cv4Mat_IdEaSERKNS_3MatE]+0x126): undefined reference to `cv::Mat::empty() const'\n"}
+[5.695196] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv4Mat_IdEaSERKNS_3MatE[_ZN2cv4Mat_IdEaSERKNS_3MatE]+0x18e): undefined reference to `cv::error(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*, char const*, int)'\n"}
+[5.695260] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv4Mat_IdEaSERKNS_3MatE[_ZN2cv4Mat_IdEaSERKNS_3MatE]+0x1e3): undefined reference to `cv::Mat::convertTo(cv::_OutputArray const&, int, double, double) const'\n"}
+[5.695328] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv4Mat_IdEaSERKNS_3MatE[_ZN2cv4Mat_IdEaSERKNS_3MatE]+0x220): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.695389] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/report_img.dir/src/report_img.cpp.o: in function `cv::Mat_<double>::release()':\n"}
+[5.695450] (cam_pos_detection) StderrLine: {'line': b"report_img.cpp:(.text._ZN2cv4Mat_IdE7releaseEv[_ZN2cv4Mat_IdE7releaseEv]+0x18): undefined reference to `cv::Mat::release()'\n"}
+[5.695512] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/report_img.dir/src/report_img.cpp.o: in function `cv::Mat_<double>::operator=(cv::Mat&&)':\n"}
+[5.695573] (cam_pos_detection) StderrLine: {'line': b"report_img.cpp:(.text._ZN2cv4Mat_IdEaSEONS_3MatE[_ZN2cv4Mat_IdEaSEONS_3MatE]+0x38): undefined reference to `cv::Mat::empty() const'\n"}
+[5.695637] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv4Mat_IdEaSEONS_3MatE[_ZN2cv4Mat_IdEaSEONS_3MatE]+0x89): undefined reference to `cv::Mat::operator=(cv::Mat&&)'\n"}
+[5.695694] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv4Mat_IdEaSEONS_3MatE[_ZN2cv4Mat_IdEaSEONS_3MatE]+0xdf): undefined reference to `cv::Mat::reshape(int, int, int const*) const'\n"}
+[5.695757] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv4Mat_IdEaSEONS_3MatE[_ZN2cv4Mat_IdEaSEONS_3MatE]+0xee): undefined reference to `cv::Mat::operator=(cv::Mat&&)'\n"}
+[5.695814] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv4Mat_IdEaSEONS_3MatE[_ZN2cv4Mat_IdEaSEONS_3MatE]+0xfa): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.695872] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv4Mat_IdEaSEONS_3MatE[_ZN2cv4Mat_IdEaSEONS_3MatE]+0x158): undefined reference to `cv::Mat::convertTo(cv::_OutputArray const&, int, double, double) const'\n"}
+[5.695930] (cam_pos_detection) StderrLine: {'line': b"/usr/bin/ld: report_img.cpp:(.text._ZN2cv4Mat_IdEaSEONS_3MatE[_ZN2cv4Mat_IdEaSEONS_3MatE]+0x192): undefined reference to `cv::Mat::~Mat()'\n"}
+[5.697169] (cam_pos_detection) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[5.701199] (cam_pos_detection) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/report_img.dir/build.make:97: report_img] Error 1\n'}
+[5.701545] (cam_pos_detection) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/report_img.dir/all] Error 2\n'}
+[5.701688] (cam_pos_detection) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.721422] (-) TimerEvent: {}
+[5.821884] (-) TimerEvent: {}
+[5.922330] (-) TimerEvent: {}
+[6.022765] (-) TimerEvent: {}
+[6.123321] (-) TimerEvent: {}
+[6.223853] (-) TimerEvent: {}
+[6.324348] (-) TimerEvent: {}
+[6.424775] (-) TimerEvent: {}
+[6.525192] (-) TimerEvent: {}
+[6.625620] (-) TimerEvent: {}
+[6.726017] (-) TimerEvent: {}
+[6.826446] (-) TimerEvent: {}
+[6.926854] (-) TimerEvent: {}
+[7.027309] (-) TimerEvent: {}
+[7.127743] (-) TimerEvent: {}
+[7.228144] (-) TimerEvent: {}
+[7.328543] (-) TimerEvent: {}
+[7.428935] (-) TimerEvent: {}
+[7.529320] (-) TimerEvent: {}
+[7.629702] (-) TimerEvent: {}
+[7.730071] (-) TimerEvent: {}
+[7.830477] (-) TimerEvent: {}
+[7.930995] (-) TimerEvent: {}
+[8.031430] (-) TimerEvent: {}
+[8.131828] (-) TimerEvent: {}
+[8.232288] (-) TimerEvent: {}
+[8.332902] (-) TimerEvent: {}
+[8.433346] (-) TimerEvent: {}
+[8.533789] (-) TimerEvent: {}
+[8.634287] (-) TimerEvent: {}
+[8.734804] (-) TimerEvent: {}
+[8.835223] (-) TimerEvent: {}
+[8.935616] (-) TimerEvent: {}
+[9.036080] (-) TimerEvent: {}
+[9.136504] (-) TimerEvent: {}
+[9.236892] (-) TimerEvent: {}
+[9.337284] (-) TimerEvent: {}
+[9.437705] (-) TimerEvent: {}
+[9.538121] (-) TimerEvent: {}
+[9.638621] (-) TimerEvent: {}
+[9.739030] (-) TimerEvent: {}
+[9.839416] (-) TimerEvent: {}
+[9.939820] (-) TimerEvent: {}
+[10.040232] (-) TimerEvent: {}
+[10.140644] (-) TimerEvent: {}
+[10.241036] (-) TimerEvent: {}
+[10.341417] (-) TimerEvent: {}
+[10.441835] (-) TimerEvent: {}
+[10.542236] (-) TimerEvent: {}
+[10.642667] (-) TimerEvent: {}
+[10.743063] (-) TimerEvent: {}
+[10.843436] (-) TimerEvent: {}
+[10.943812] (-) TimerEvent: {}
+[11.044196] (-) TimerEvent: {}
+[11.144583] (-) TimerEvent: {}
+[11.244951] (-) TimerEvent: {}
+[11.345326] (-) TimerEvent: {}
+[11.445697] (-) TimerEvent: {}
+[11.546088] (-) TimerEvent: {}
+[11.646476] (-) TimerEvent: {}
+[11.746867] (-) TimerEvent: {}
+[11.847286] (-) TimerEvent: {}
+[11.947680] (-) TimerEvent: {}
+[12.048069] (-) TimerEvent: {}
+[12.148451] (-) TimerEvent: {}
+[12.248932] (-) TimerEvent: {}
+[12.349329] (-) TimerEvent: {}
+[12.449735] (-) TimerEvent: {}
+[12.550160] (-) TimerEvent: {}
+[12.650552] (-) TimerEvent: {}
+[12.750946] (-) TimerEvent: {}
+[12.851346] (-) TimerEvent: {}
+[12.952228] (-) TimerEvent: {}
+[13.052614] (-) TimerEvent: {}
+[13.152981] (-) TimerEvent: {}
+[13.253394] (-) TimerEvent: {}
+[13.353893] (-) TimerEvent: {}
+[13.454305] (-) TimerEvent: {}
+[13.554712] (-) TimerEvent: {}
+[13.655124] (-) TimerEvent: {}
+[13.755526] (-) TimerEvent: {}
+[13.855917] (-) TimerEvent: {}
+[13.956301] (-) TimerEvent: {}
+[14.056747] (-) TimerEvent: {}
+[14.157151] (-) TimerEvent: {}
+[14.257561] (-) TimerEvent: {}
+[14.358013] (-) TimerEvent: {}
+[14.458486] (-) TimerEvent: {}
+[14.558974] (-) TimerEvent: {}
+[14.659404] (-) TimerEvent: {}
+[14.759859] (-) TimerEvent: {}
+[14.860340] (-) TimerEvent: {}
+[14.939147] (cam_pos_detection) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_position\x1b[0m\n'}
+[14.960534] (-) TimerEvent: {}
+[15.061035] (-) TimerEvent: {}
+[15.161533] (-) TimerEvent: {}
+[15.262032] (-) TimerEvent: {}
+[15.362575] (-) TimerEvent: {}
+[15.463138] (-) TimerEvent: {}
+[15.563671] (-) TimerEvent: {}
+[15.664184] (-) TimerEvent: {}
+[15.764711] (-) TimerEvent: {}
+[15.865229] (-) TimerEvent: {}
+[15.965752] (-) TimerEvent: {}
+[16.066200] (-) TimerEvent: {}
+[16.166653] (-) TimerEvent: {}
+[16.167201] (cam_pos_detection) StdoutLine: {'line': b'[100%] Built target robot_position\n'}
+[16.169871] (cam_pos_detection) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[16.175834] (cam_pos_detection) CommandEnded: {'returncode': 2}
+[16.185928] (cam_pos_detection) JobEnded: {'identifier': 'cam_pos_detection', 'rc': 2}
+[16.197034] (-) EventReactorShutdown: {}

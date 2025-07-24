@@ -1,3 +1,0 @@
-Invoking command in '/wolvi/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/gazebo/robot_bringup -DCMAKE_INSTALL_PREFIX=/wolvi/install/robot_bringup
-Invoked command in '/wolvi/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/gazebo/robot_bringup -DCMAKE_INSTALL_PREFIX=/wolvi/install/robot_bringup
-Invoking command in '/wolvi/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/robot_bringup -- -j16 -l16

@@ -1,3 +1,0 @@
-[0.059s] Invoking command in '/wolvi/build/aruco_detection': BYOBU_DATE=%Y-%m-%d /usr/bin/cmake --build /wolvi/build/aruco_detection -- -j16 -l16
-[0.147s] [100%] Built target t_aruco_detection
-[0.222s] Invoked command in '/wolvi/build/aruco_detection' returned '0': BYOBU_DATE=%Y-%m-%d /usr/bin/cmake --build /wolvi/build/aruco_detection -- -j16 -l16

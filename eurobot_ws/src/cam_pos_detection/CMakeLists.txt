@@ -7,18 +7,70 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(OpenCV REQUIRED)
+find_package(cv_bridge REQUIRED)
+
+find_package(builtin_interfaces REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(rosidl_default_runtime REQUIRED)
+
+
+
+# rosidl_generate_interfaces(${PROJECT_NAME}
+#   "srv/GetCameraPose.srv"
+#   DEPENDENCIES geometry_msgs
+# )
+
+
+add_executable(robot_position
+  src/robot_position_node.cpp 
+  src/image_processor.cpp
+  src/aruco_detector.cpp
+  src/pose_calculator.cpp
+)
+# add_executable(camera_position src/camera_position_service.cpp)
+add_executable(report_img src/report_img.cpp)
+
+
+target_include_directories(robot_position PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  ${OpenCV_INCLUDE_DIRS}
+)
+
+# target_include_directories(camera_position PUBLIC
+#   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+#   $<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}/rosidl_generator_cpp>
+# )
+
+target_include_directories(report_img PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  ${OpenCV_INCLUDE_DIRS}
+)
+
+
+ament_target_dependencies(robot_position rclcpp sensor_msgs OpenCV cv_bridge)
+# ament_target_dependencies(camera_position rclcpp geometry_msgs)
+ament_target_dependencies(report_img OpenCV)
+
+
+install(TARGETS
+  robot_position
+  # camera_position
+  report_img
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY include/
+  DESTINATION include/
+)
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
-  # the following line skips the linter which checks for copyrights
-  # comment the line when a copyright and license is added to all source files
   set(ament_cmake_copyright_FOUND TRUE)
-  # the following line skips cpplint (only works in a git repo)
-  # comment the line when this package is in a git repo and when
-  # a copyright and license is added to all source files
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()

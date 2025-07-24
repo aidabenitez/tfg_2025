@@ -1,0 +1,86 @@
+[0.056s] Invoking command in '/wolvi/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/controller -DCMAKE_INSTALL_PREFIX=/wolvi/install/controller
+[0.206s] -- The C compiler identification is GNU 11.4.0
+[0.306s] -- The CXX compiler identification is GNU 11.4.0
+[0.320s] -- Detecting C compiler ABI info
+[0.463s] -- Detecting C compiler ABI info - done
+[0.477s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.478s] -- Detecting C compile features
+[0.478s] -- Detecting C compile features - done
+[0.484s] -- Detecting CXX compiler ABI info
+[0.639s] -- Detecting CXX compiler ABI info - done
+[0.656s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.657s] -- Detecting CXX compile features
+[0.658s] -- Detecting CXX compile features - done
+[0.662s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.905s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.051s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.116s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.126s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.140s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.276s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.281s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.475s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.528s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.645s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.660s] -- Looking for pthread.h
+[1.797s] -- Looking for pthread.h - found
+[1.798s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.935s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.938s] -- Found Threads: TRUE  
+[2.011s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[2.141s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.279s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.281s] -- Added test 'lint_cmake' to check CMake code style
+[2.282s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.284s] -- Added test 'xmllint' to check XML markup files
+[2.287s] -- Configuring done
+[2.296s] -- Generating done
+[2.301s] -- Build files have been written to: /wolvi/build/controller
+[2.317s] Invoked command in '/wolvi/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/controller -DCMAKE_INSTALL_PREFIX=/wolvi/install/controller
+[2.319s] Invoking command in '/wolvi/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/controller -- -j16 -l16
+[2.425s] Built target ament_cmake_python_copy_controller
+[2.871s] running egg_info
+[2.872s] creating controller.egg-info
+[2.872s] writing controller.egg-info/PKG-INFO
+[2.872s] writing dependency_links to controller.egg-info/dependency_links.txt
+[2.872s] writing top-level names to controller.egg-info/top_level.txt
+[2.872s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[2.877s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[2.879s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[2.973s] Built target ament_cmake_python_build_controller_egg
+[3.011s] Invoked command in '/wolvi/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/controller -- -j16 -l16
+[3.013s] Invoking command in '/wolvi/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/controller
+[3.026s] -- Install configuration: ""
+[3.026s] -- Installing: /wolvi/install/controller/share/controller/environment/pythonpath.sh
+[3.026s] -- Installing: /wolvi/install/controller/share/controller/environment/pythonpath.dsv
+[3.026s] -- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info
+[3.027s] -- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/top_level.txt
+[3.027s] -- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.028s] -- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.028s] -- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/PKG-INFO
+[3.028s] -- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller
+[3.028s] -- Installing: /wolvi/install/controller/local/lib/python3.10/dist-packages/controller/__init__.py
+[3.101s] Listing '/wolvi/install/controller/local/lib/python3.10/dist-packages/controller'...
+[3.101s] Compiling '/wolvi/install/controller/local/lib/python3.10/dist-packages/controller/__init__.py'...
+[3.120s] -- Installing: /wolvi/install/controller/lib/controller/controller_node.py
+[3.121s] -- Installing: /wolvi/install/controller/lib/controller/first_driver.py
+[3.121s] -- Installing: /wolvi/install/controller/lib/controller/differential_drive.py
+[3.122s] -- Installing: /wolvi/install/controller/lib/controller/serial_communication.py
+[3.127s] -- Installing: /wolvi/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+[3.128s] -- Installing: /wolvi/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+[3.128s] -- Installing: /wolvi/install/controller/share/controller/environment/ament_prefix_path.sh
+[3.128s] -- Installing: /wolvi/install/controller/share/controller/environment/ament_prefix_path.dsv
+[3.128s] -- Installing: /wolvi/install/controller/share/controller/environment/path.sh
+[3.129s] -- Installing: /wolvi/install/controller/share/controller/environment/path.dsv
+[3.129s] -- Installing: /wolvi/install/controller/share/controller/local_setup.bash
+[3.129s] -- Installing: /wolvi/install/controller/share/controller/local_setup.sh
+[3.130s] -- Installing: /wolvi/install/controller/share/controller/local_setup.zsh
+[3.130s] -- Installing: /wolvi/install/controller/share/controller/local_setup.dsv
+[3.130s] -- Installing: /wolvi/install/controller/share/controller/package.dsv
+[3.130s] -- Installing: /wolvi/install/controller/share/ament_index/resource_index/packages/controller
+[3.130s] -- Installing: /wolvi/install/controller/share/controller/cmake/controllerConfig.cmake
+[3.130s] -- Installing: /wolvi/install/controller/share/controller/cmake/controllerConfig-version.cmake
+[3.130s] -- Installing: /wolvi/install/controller/share/controller/package.xml
+[3.181s] Invoked command in '/wolvi/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/controller

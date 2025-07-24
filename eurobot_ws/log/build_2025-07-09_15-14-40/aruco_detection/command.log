@@ -1,2 +1,0 @@
-Invoking command in '/wolvi/build/aruco_detection': /usr/bin/cmake --build /wolvi/build/aruco_detection -- -j16 -l16
-Invoked command in '/wolvi/build/aruco_detection' returned '0': /usr/bin/cmake --build /wolvi/build/aruco_detection -- -j16 -l16

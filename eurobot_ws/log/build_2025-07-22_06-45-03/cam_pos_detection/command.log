@@ -1,0 +1,4 @@
+Invoking command in '/wolvi/build/cam_pos_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/cam_pos_detection -- -j16 -l16
+Invoked command in '/wolvi/build/cam_pos_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/cam_pos_detection -- -j16 -l16
+Invoking command in '/wolvi/build/cam_pos_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/cam_pos_detection
+Invoked command in '/wolvi/build/cam_pos_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/cam_pos_detection

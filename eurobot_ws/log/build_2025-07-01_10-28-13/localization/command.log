@@ -1,4 +1,0 @@
-Invoking command in '/wolvi/build/localization': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/localization -- -j16 -l16
-Invoked command in '/wolvi/build/localization' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/localization -- -j16 -l16
-Invoking command in '/wolvi/build/localization': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/localization
-Invoked command in '/wolvi/build/localization' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/localization

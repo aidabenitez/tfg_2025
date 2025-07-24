@@ -1,0 +1,450 @@
+[0.115s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.115s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f08c0730040>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f08c06fba90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f08c06fba90>>, mixin_verb=('build',))
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.296s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.297s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.297s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.298s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/wolvi'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pos_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pos_detection) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pos_detection) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pos_detection) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pos_detection) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pos_detection) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pos_detection) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pos_detection) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pos_detection) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_pos_detection' with type 'ros.ament_cmake' and name 'cam_pos_detection'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sim) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sim) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sim) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sim) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sim) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sim) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sim) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sim) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_sim' with type 'ros.ament_cmake' and name 'camera_sim'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone/aruco_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone/aruco_detection) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone/aruco_detection) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone/aruco_detection) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone/aruco_detection) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone/aruco_detection) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone/aruco_detection) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone/aruco_detection) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone/aruco_detection) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone/aruco_detection) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone/aruco_detection) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/computing_zone/aruco_detection) by extension 'python'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/computing_zone/aruco_detection' with type 'cmake' and name 'aruco_detection'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controller' with type 'ros.ament_cmake' and name 'controller'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/localization' with type 'ros.ament_cmake' and name 'localization'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation' with type 'ros.ament_cmake' and name 'navigation'
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'cmake_target' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/wolvi/build/aruco_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/wolvi/install/aruco_detection', 'merge_install': False, 'path': '/wolvi/src/computing_zone/aruco_detection', 'symlink_install': False, 'test_result_base': None}
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'cam_pos_detection' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'cam_pos_detection' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'cam_pos_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'cam_pos_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'cam_pos_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'cam_pos_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'cam_pos_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'cam_pos_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'cam_pos_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'cam_pos_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/wolvi/build/cam_pos_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/wolvi/install/cam_pos_detection', 'merge_install': False, 'path': '/wolvi/src/cam_pos_detection', 'symlink_install': False, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'camera_sim' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'camera_sim' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'camera_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'camera_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'camera_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'camera_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'camera_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'camera_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'camera_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'camera_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/wolvi/build/camera_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/wolvi/install/camera_sim', 'merge_install': False, 'path': '/wolvi/src/camera_sim', 'symlink_install': False, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/wolvi/build/controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/wolvi/install/controller', 'merge_install': False, 'path': '/wolvi/src/controller', 'symlink_install': False, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/wolvi/build/localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/wolvi/install/localization', 'merge_install': False, 'path': '/wolvi/src/localization', 'symlink_install': False, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.359s] DEBUG:colcon.colcon_core.verb:Building package 'navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/wolvi/build/navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/wolvi/install/navigation', 'merge_install': False, 'path': '/wolvi/src/navigation', 'symlink_install': False, 'test_result_base': None}
+[0.359s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.360s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.360s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/wolvi/src/computing_zone/aruco_detection'
+[0.365s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.368s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/wolvi/install/tutorial_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.368s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/wolvi/install/navigation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.368s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/wolvi/install/localization' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.368s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/wolvi/install/controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.368s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/wolvi/install/camera_sim' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.369s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/wolvi/install/cam_pos_detection' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.369s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/wolvi/install/tutorial_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.369s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/wolvi/install/navigation' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.369s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/wolvi/install/localization' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.369s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/wolvi/install/controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.369s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/wolvi/install/camera_sim' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.370s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/wolvi/install/cam_pos_detection' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.377s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/wolvi/src/cam_pos_detection' with build type 'ament_cmake'
+[0.378s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/wolvi/src/cam_pos_detection'
+[0.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.387s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/wolvi/src/camera_sim' with build type 'ament_cmake'
+[0.387s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/wolvi/src/camera_sim'
+[0.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.387s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.391s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/wolvi/src/controller' with build type 'ament_cmake'
+[0.392s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/wolvi/src/controller'
+[0.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.396s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/wolvi/src/localization' with build type 'ament_cmake'
+[0.396s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/wolvi/src/localization'
+[0.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.404s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/wolvi/src/navigation' with build type 'ament_cmake'
+[0.405s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/wolvi/src/navigation'
+[0.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/aruco_detection': /usr/bin/cmake /wolvi/src/computing_zone/aruco_detection -DCMAKE_INSTALL_PREFIX=/wolvi/install/aruco_detection
+[0.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/cam_pos_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/cam_pos_detection -DCMAKE_INSTALL_PREFIX=/wolvi/install/cam_pos_detection
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/camera_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/camera_sim -DCMAKE_INSTALL_PREFIX=/wolvi/install/camera_sim
+[0.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/controller -DCMAKE_INSTALL_PREFIX=/wolvi/install/controller
+[0.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/localization -DCMAKE_INSTALL_PREFIX=/wolvi/install/localization
+[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/navigation -DCMAKE_INSTALL_PREFIX=/wolvi/install/navigation
+[1.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/aruco_detection' returned '0': /usr/bin/cmake /wolvi/src/computing_zone/aruco_detection -DCMAKE_INSTALL_PREFIX=/wolvi/install/aruco_detection
+[1.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/aruco_detection': /usr/bin/cmake --build /wolvi/build/aruco_detection -- -j16 -l16
+[2.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/camera_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/camera_sim -DCMAKE_INSTALL_PREFIX=/wolvi/install/camera_sim
+[2.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/camera_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/camera_sim -- -j16 -l16
+[2.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/localization -DCMAKE_INSTALL_PREFIX=/wolvi/install/localization
+[2.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/localization -- -j16 -l16
+[2.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/cam_pos_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/cam_pos_detection -DCMAKE_INSTALL_PREFIX=/wolvi/install/cam_pos_detection
+[2.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/cam_pos_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/cam_pos_detection -- -j16 -l16
+[2.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/navigation -DCMAKE_INSTALL_PREFIX=/wolvi/install/navigation
+[2.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/navigation -- -j16 -l16
+[2.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/controller -DCMAKE_INSTALL_PREFIX=/wolvi/install/controller
+[2.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/controller -- -j16 -l16
+[3.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/camera_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/camera_sim -- -j16 -l16
+[3.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/camera_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/camera_sim
+[3.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/controller -- -j16 -l16
+[3.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/controller
+[3.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/localization -- -j16 -l16
+[3.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/localization
+[3.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/navigation -- -j16 -l16
+[3.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/wolvi/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/navigation
+[3.509s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_sim)
+[3.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/camera_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/camera_sim
+[3.526s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/camera_sim' for CMake module files
+[3.527s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/camera_sim' for CMake config files
+[3.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_sim', 'cmake_prefix_path')
+[3.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/camera_sim/share/camera_sim/hook/cmake_prefix_path.ps1'
+[3.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/wolvi/install/camera_sim/share/camera_sim/hook/cmake_prefix_path.dsv'
+[3.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/camera_sim/share/camera_sim/hook/cmake_prefix_path.sh'
+[3.533s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/camera_sim/lib'
+[3.533s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/camera_sim/bin'
+[3.534s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/camera_sim/lib/pkgconfig/camera_sim.pc'
+[3.538s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/camera_sim/lib/python3.10/site-packages'
+[3.539s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/camera_sim/bin'
+[3.540s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/camera_sim/share/camera_sim/package.ps1'
+[3.545s] INFO:colcon.colcon_core.shell:Creating package descriptor '/wolvi/install/camera_sim/share/camera_sim/package.dsv'
+[3.547s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/camera_sim/share/camera_sim/package.sh'
+[3.549s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/camera_sim/share/camera_sim/package.bash'
+[3.551s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/camera_sim/share/camera_sim/package.zsh'
+[3.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/wolvi/install/camera_sim/share/colcon-core/packages/camera_sim)
+[3.554s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_sim)
+[3.554s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/camera_sim' for CMake module files
+[3.555s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/camera_sim' for CMake config files
+[3.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_sim', 'cmake_prefix_path')
+[3.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/camera_sim/share/camera_sim/hook/cmake_prefix_path.ps1'
+[3.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/wolvi/install/camera_sim/share/camera_sim/hook/cmake_prefix_path.dsv'
+[3.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/camera_sim/share/camera_sim/hook/cmake_prefix_path.sh'
+[3.560s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/camera_sim/lib'
+[3.560s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/camera_sim/bin'
+[3.561s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/camera_sim/lib/pkgconfig/camera_sim.pc'
+[3.561s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/camera_sim/lib/python3.10/site-packages'
+[3.561s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/camera_sim/bin'
+[3.562s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/camera_sim/share/camera_sim/package.ps1'
+[3.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/wolvi/install/camera_sim/share/camera_sim/package.dsv'
+[3.564s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/camera_sim/share/camera_sim/package.sh'
+[3.566s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/camera_sim/share/camera_sim/package.bash'
+[3.567s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/camera_sim/share/camera_sim/package.zsh'
+[3.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/wolvi/install/camera_sim/share/colcon-core/packages/camera_sim)
+[3.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller)
+[3.573s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/controller' for CMake module files
+[3.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/controller
+[3.575s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/controller' for CMake config files
+[3.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'cmake_prefix_path')
+[3.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/controller/share/controller/hook/cmake_prefix_path.ps1'
+[3.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/wolvi/install/controller/share/controller/hook/cmake_prefix_path.dsv'
+[3.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/controller/share/controller/hook/cmake_prefix_path.sh'
+[3.579s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/controller/lib'
+[3.580s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/controller/bin'
+[3.580s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/controller/lib/pkgconfig/controller.pc'
+[3.580s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/controller/lib/python3.10/site-packages'
+[3.581s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/controller/bin'
+[3.582s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/controller/share/controller/package.ps1'
+[3.583s] INFO:colcon.colcon_core.shell:Creating package descriptor '/wolvi/install/controller/share/controller/package.dsv'
+[3.584s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/controller/share/controller/package.sh'
+[3.586s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/controller/share/controller/package.bash'
+[3.586s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/controller/share/controller/package.zsh'
+[3.587s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/wolvi/install/controller/share/colcon-core/packages/controller)
+[3.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller)
+[3.589s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/controller' for CMake module files
+[3.590s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/controller' for CMake config files
+[3.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'cmake_prefix_path')
+[3.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/controller/share/controller/hook/cmake_prefix_path.ps1'
+[3.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/wolvi/install/controller/share/controller/hook/cmake_prefix_path.dsv'
+[3.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/controller/share/controller/hook/cmake_prefix_path.sh'
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/controller/lib'
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/controller/bin'
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/controller/lib/pkgconfig/controller.pc'
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/controller/lib/python3.10/site-packages'
+[3.596s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/controller/bin'
+[3.596s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/controller/share/controller/package.ps1'
+[3.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/wolvi/install/controller/share/controller/package.dsv'
+[3.599s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/controller/share/controller/package.sh'
+[3.600s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/controller/share/controller/package.bash'
+[3.601s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/controller/share/controller/package.zsh'
+[3.602s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/wolvi/install/controller/share/colcon-core/packages/controller)
+[3.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization)
+[3.604s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/localization' for CMake module files
+[3.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/localization
+[3.608s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/localization' for CMake config files
+[3.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'cmake_prefix_path')
+[3.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/localization/share/localization/hook/cmake_prefix_path.ps1'
+[3.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/wolvi/install/localization/share/localization/hook/cmake_prefix_path.dsv'
+[3.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/localization/share/localization/hook/cmake_prefix_path.sh'
+[3.613s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/localization/bin'
+[3.613s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/localization/lib/pkgconfig/localization.pc'
+[3.614s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/localization/lib/python3.10/site-packages'
+[3.614s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/localization/bin'
+[3.615s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/localization/share/localization/package.ps1'
+[3.616s] INFO:colcon.colcon_core.shell:Creating package descriptor '/wolvi/install/localization/share/localization/package.dsv'
+[3.618s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/localization/share/localization/package.sh'
+[3.619s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/localization/share/localization/package.bash'
+[3.620s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/localization/share/localization/package.zsh'
+[3.621s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/wolvi/install/localization/share/colcon-core/packages/localization)
+[3.623s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization)
+[3.623s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/localization' for CMake module files
+[3.624s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/localization' for CMake config files
+[3.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'cmake_prefix_path')
+[3.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/localization/share/localization/hook/cmake_prefix_path.ps1'
+[3.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/wolvi/install/localization/share/localization/hook/cmake_prefix_path.dsv'
+[3.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/localization/share/localization/hook/cmake_prefix_path.sh'
+[3.630s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/localization/bin'
+[3.630s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/localization/lib/pkgconfig/localization.pc'
+[3.631s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/localization/lib/python3.10/site-packages'
+[3.631s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/localization/bin'
+[3.632s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/localization/share/localization/package.ps1'
+[3.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/wolvi/install/localization/share/localization/package.dsv'
+[3.635s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/localization/share/localization/package.sh'
+[3.636s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/localization/share/localization/package.bash'
+[3.638s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/localization/share/localization/package.zsh'
+[3.639s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/wolvi/install/localization/share/colcon-core/packages/localization)
+[3.640s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation)
+[3.640s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/navigation' for CMake module files
+[3.641s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/navigation' for CMake config files
+[3.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation', 'cmake_prefix_path')
+[3.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/navigation/share/navigation/hook/cmake_prefix_path.ps1'
+[3.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/wolvi/install/navigation/share/navigation/hook/cmake_prefix_path.dsv'
+[3.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/navigation/share/navigation/hook/cmake_prefix_path.sh'
+[3.647s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/navigation/lib'
+[3.647s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/navigation/bin'
+[3.647s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/navigation/lib/pkgconfig/navigation.pc'
+[3.648s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/navigation/lib/python3.10/site-packages'
+[3.648s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/navigation/bin'
+[3.649s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/navigation/share/navigation/package.ps1'
+[3.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/wolvi/install/navigation/share/navigation/package.dsv'
+[3.653s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/navigation/share/navigation/package.sh'
+[3.655s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/navigation/share/navigation/package.bash'
+[3.656s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/navigation/share/navigation/package.zsh'
+[3.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/wolvi/install/navigation/share/colcon-core/packages/navigation)
+[3.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/navigation
+[3.661s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation)
+[3.662s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/navigation' for CMake module files
+[3.663s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/navigation' for CMake config files
+[3.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation', 'cmake_prefix_path')
+[3.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/navigation/share/navigation/hook/cmake_prefix_path.ps1'
+[3.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/wolvi/install/navigation/share/navigation/hook/cmake_prefix_path.dsv'
+[3.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/wolvi/install/navigation/share/navigation/hook/cmake_prefix_path.sh'
+[3.669s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/navigation/lib'
+[3.669s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/navigation/bin'
+[3.669s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/navigation/lib/pkgconfig/navigation.pc'
+[3.670s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/navigation/lib/python3.10/site-packages'
+[3.670s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/navigation/bin'
+[3.671s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/navigation/share/navigation/package.ps1'
+[3.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/wolvi/install/navigation/share/navigation/package.dsv'
+[3.674s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/navigation/share/navigation/package.sh'
+[3.676s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/navigation/share/navigation/package.bash'
+[3.677s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/navigation/share/navigation/package.zsh'
+[3.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/wolvi/install/navigation/share/colcon-core/packages/navigation)
+[5.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/aruco_detection' returned '0': /usr/bin/cmake --build /wolvi/build/aruco_detection -- -j16 -l16
+[5.678s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'aruco_detection' because it has no 'install' target
+[5.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_detection)
+[5.678s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/aruco_detection' for CMake module files
+[5.679s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/aruco_detection' for CMake config files
+[5.680s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/aruco_detection/bin'
+[5.680s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/aruco_detection/lib/pkgconfig/aruco_detection.pc'
+[5.681s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/aruco_detection/lib/python3.10/site-packages'
+[5.682s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/aruco_detection/bin'
+[5.683s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/aruco_detection/share/aruco_detection/package.ps1'
+[5.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/wolvi/install/aruco_detection/share/aruco_detection/package.dsv'
+[5.685s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/aruco_detection/share/aruco_detection/package.sh'
+[5.685s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/aruco_detection/share/aruco_detection/package.bash'
+[5.686s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/aruco_detection/share/aruco_detection/package.zsh'
+[5.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/wolvi/install/aruco_detection/share/colcon-core/packages/aruco_detection)
+[16.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/wolvi/build/cam_pos_detection' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/cam_pos_detection -- -j16 -l16
+[16.538s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam_pos_detection)
+[16.538s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/cam_pos_detection' for CMake module files
+[16.539s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/cam_pos_detection' for CMake config files
+[16.539s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/cam_pos_detection/bin'
+[16.540s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/cam_pos_detection/lib/pkgconfig/cam_pos_detection.pc'
+[16.540s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/cam_pos_detection/lib/python3.10/site-packages'
+[16.540s] Level 1:colcon.colcon_core.environment:checking '/wolvi/install/cam_pos_detection/bin'
+[16.541s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/cam_pos_detection/share/cam_pos_detection/package.ps1'
+[16.543s] INFO:colcon.colcon_core.shell:Creating package descriptor '/wolvi/install/cam_pos_detection/share/cam_pos_detection/package.dsv'
+[16.543s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/cam_pos_detection/share/cam_pos_detection/package.sh'
+[16.544s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/cam_pos_detection/share/cam_pos_detection/package.bash'
+[16.545s] INFO:colcon.colcon_core.shell:Creating package script '/wolvi/install/cam_pos_detection/share/cam_pos_detection/package.zsh'
+[16.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/wolvi/install/cam_pos_detection/share/colcon-core/packages/cam_pos_detection)
+[16.557s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.557s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.557s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[16.557s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.570s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[16.571s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.571s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.571s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.574s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[16.574s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.575s] INFO:colcon.colcon_core.shell:Creating prefix script '/wolvi/install/local_setup.ps1'
+[16.577s] INFO:colcon.colcon_core.shell:Creating prefix util module '/wolvi/install/_local_setup_util_ps1.py'
+[16.580s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/wolvi/install/setup.ps1'
+[16.583s] INFO:colcon.colcon_core.shell:Creating prefix script '/wolvi/install/local_setup.sh'
+[16.584s] INFO:colcon.colcon_core.shell:Creating prefix util module '/wolvi/install/_local_setup_util_sh.py'
+[16.585s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/wolvi/install/setup.sh'
+[16.587s] INFO:colcon.colcon_core.shell:Creating prefix script '/wolvi/install/local_setup.bash'
+[16.587s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/wolvi/install/setup.bash'
+[16.588s] INFO:colcon.colcon_core.shell:Creating prefix script '/wolvi/install/local_setup.zsh'
+[16.589s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/wolvi/install/setup.zsh'

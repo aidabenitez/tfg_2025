@@ -505,9 +505,6 @@ std_msgs_DIR:PATH=/opt/ros/humble/share/std_msgs/cmake
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/humble/share/tracetools/cmake
 
-//The directory containing a CMake configuration file for utils.
-utils_DIR:PATH=/wolvi/install/utils/share/utils/cmake
-
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
 

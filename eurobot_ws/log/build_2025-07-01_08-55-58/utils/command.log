@@ -1,6 +1,0 @@
-Invoking command in '/wolvi/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/utils -DCMAKE_INSTALL_PREFIX=/wolvi/install/utils
-Invoked command in '/wolvi/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /wolvi/src/utils -DCMAKE_INSTALL_PREFIX=/wolvi/install/utils
-Invoking command in '/wolvi/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/utils -- -j16 -l16
-Invoked command in '/wolvi/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /wolvi/build/utils -- -j16 -l16
-Invoking command in '/wolvi/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/utils
-Invoked command in '/wolvi/build/utils' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /wolvi/build/utils

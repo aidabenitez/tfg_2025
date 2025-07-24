@@ -1,1 +1,1 @@
-/wolvi/install/controller:/wolvi/install/utils:/wolvi/install/robot_bringup:/wolvi/install/localization:/opt/ros/humble
+/wolvi/install/tutorial_interfaces:/wolvi/install/navigation:/wolvi/install/localization:/wolvi/install/controller:/wolvi/install/camera_sim:/wolvi/install/cam_pos_detection:/opt/ros/humble

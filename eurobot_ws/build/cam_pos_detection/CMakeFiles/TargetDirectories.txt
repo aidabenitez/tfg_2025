@@ -1,0 +1,11 @@
+/wolvi/build/cam_pos_detection/CMakeFiles/uninstall.dir
+/wolvi/build/cam_pos_detection/CMakeFiles/cam_pos_detection_uninstall.dir
+/wolvi/build/cam_pos_detection/CMakeFiles/robot_position.dir
+/wolvi/build/cam_pos_detection/CMakeFiles/report_img.dir
+/wolvi/build/cam_pos_detection/CMakeFiles/test.dir
+/wolvi/build/cam_pos_detection/CMakeFiles/edit_cache.dir
+/wolvi/build/cam_pos_detection/CMakeFiles/rebuild_cache.dir
+/wolvi/build/cam_pos_detection/CMakeFiles/list_install_components.dir
+/wolvi/build/cam_pos_detection/CMakeFiles/install.dir
+/wolvi/build/cam_pos_detection/CMakeFiles/install/local.dir
+/wolvi/build/cam_pos_detection/CMakeFiles/install/strip.dir
